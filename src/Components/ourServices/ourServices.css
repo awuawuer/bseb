@@ -1,0 +1,75 @@
+
+
+.frame-x {
+  height: 454px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 1239px;
+  display: flex;
+  left:100px;
+  gap:28px;
+
+}
+
+
+.frame-y {
+  width: 446px;
+  height: 113px;
+  left: 497px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+  flex-direction: column;
+}
+
+
+.title {
+ font-family: "Sora-SemiBold", Helvetica;
+ color:green;
+ font-size: 35px;
+ font-weight: 600;
+ 
+}
+
+.subtitle {
+  font-family: "Sora-SemiBold", Helvetica;
+  font-size: 16px;
+  color: #5F6368;
+  padding: 4px;
+  margin: 4px;
+  width: 446px;
+ }
+
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 1216px;
+  left: 101px;
+  top: 217px;
+}
+
+.card-wrapper {
+  padding: 35px 40px;
+
+}
+
+.card {
+  
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  align-items: center;
+}
+
+.icon {
+  height: 54px;
+  width: 54px;
+}

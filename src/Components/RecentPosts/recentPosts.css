@@ -1,0 +1,104 @@
+.frame-four {
+  height: 740px;
+  position: relative;
+  width: 1440px;
+  display: flex;
+  justify-items: center;
+  top:100px
+}
+
+.frame-five {
+  width: 446px;
+  height: 113px;
+  /* top: 64px; */
+  padding-left: 497px;
+  padding-right: 497px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.title {
+ font-family: "Sora-SemiBold", Helvetica;
+ color:green;
+ font-size: 35px;
+ font-weight: 600;
+ width: 283px;
+ height: 53px;
+ 
+}
+
+.subtitle {
+  font-family: "Sora-SemiBold", Helvetica;
+  font-size: 16px;
+  color: #5F6368;
+  width: 446px;
+  text-align: center;
+ }
+
+
+.frame-six {
+  display: flex;
+  gap: 32;
+  position: absolute;
+  padding-left: 101px;
+  top:160px;
+}
+
+.frame-7 {
+  display: flex;
+  flex-direction: column;
+  gap: 32;
+  /* width: 320px;
+  height: 200px; */
+  width: 592px;
+  height: 432px;
+  
+}
+
+.article1 {
+  display: flex;
+  flex-direction: column;
+  width: 592px;
+  height: 432px;
+}
+
+.article2 {
+  display: flex;
+  gap: 24px;
+  width: 592px;
+  height: 200px;
+  margin: 10px;
+}
+
+.heading-wrapper {
+  display: flex;
+  padding: 10px 5px;
+
+}
+
+.heading {
+  color: var(--gray-900);
+  font-family: var(--semibold-type-24-font-family);
+  font-size: var(--semibold-type-18-font-size);
+  font-style: var(--semibold-type-24-font-style);
+  font-weight: var(--semibold-type-24-font-weight);
+  /* letter-spacing: var(--semibold-type-24-letter-spacing); */
+  align-items: flex-start;
+  
+}
+
+.icon-wrap {
+  flex: 0 0 auto;
+  position: relative;
+  align-items: flex-end;
+}
+
+
+
+.subtitle-2 {
+  font-family: "Sora-SemiBold", Helvetica;
+  font-size: 16px;
+  color: #5F6368;
+
+ }

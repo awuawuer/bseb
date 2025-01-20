@@ -1,0 +1,28 @@
+// BlogPostCard.js
+import React from 'react';
+import './BlogPostCard.css';
+
+function BlogPostCard({ imageSrc, title, supportingText, icon }) {
+  return (
+     <article className="blog-post-card">
+        <img
+          className="governor-alia"
+          src={imageSrc}
+          alt="Blog Post"
+        />
+        <div className="heading-and-text-wrapper">
+          <div className="heading-and-text">
+            <div className="heading-and-icon">
+              <h3 className="heading">{title}</h3>
+              <img className="icon-wrap" src={icon} alt="Read more icon" />
+            </div>
+            <p className="supporting-text">
+              {supportingText}
+            </p>
+          </div>
+        </div>
+    </article>
+  );
+}
+
+export default BlogPostCard;

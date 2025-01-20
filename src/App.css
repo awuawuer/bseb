@@ -1,0 +1,116 @@
+/* App.css */
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+  background-color: #ffffff;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+:root {
+  /* --- Colors --- */
+  --primary-1: #52A43E; /* Example primary color */
+  --primary-200: #52a43e;
+  --accent-1: #2652F2; /* Example accent color */
+  --accentaccent-100: #E9F4FF;
+  --accentaccent-600: #59A0F5;
+  --text-primary: #272A2D;
+  --background-white: #FFFFFF;
+  --gray-900: #222;
+  --gray-500: #7C8792;
+  --body-text: #8C95A1;
+  --light: #fff;
+  --danger-color: #ff6b6b;
+  --outline: #F0F0F0;
+  --second-text-color: #4F5457;
+  --light-background-color: #FBFBFC;
+   --light-neutralgray-0: #F5F5F5;
+
+   /* --- Typography --- */
+    --bold-type-18-font-family: 'Plus Jakarta Sans-Bold', Helvetica;
+    --bold-type-18-font-size: 18px;
+    --bold-type-18-font-style: normal;
+    --bold-type-18-font-weight: 700;
+    --bold-type-18-letter-spacing: -0.36px;
+    --bold-type-18-line-height: normal;
+
+    --regular-type-12-font-family: 'Plus Jakarta Sans-Regular', Helvetica;
+    --regular-type-12-font-size: 12px;
+    --regular-type-12-font-style: normal;
+    --regular-type-12-font-weight: 400;
+    --regular-type-12-letter-spacing: -0.24px;
+    --regular-type-12-line-height: normal;
+
+     --semibold-type-14-font-family: 'Plus Jakarta Sans-SemiBold', Helvetica;
+    --semibold-type-14-font-size: 14px;
+    --semibold-type-14-font-style: normal;
+    --semibold-type-14-font-weight: 600;
+    --semibold-type-14-letter-spacing: -0.28px;
+    --semibold-type-14-line-height: normal;
+
+    --regular-type-16-font-family: 'Plus Jakarta Sans-Regular', Helvetica;
+    --regular-type-16-font-size: 16px;
+    --regular-type-16-font-style: normal;
+    --regular-type-16-font-weight: 400;
+    --regular-type-16-letter-spacing: -0.32px;
+    --regular-type-16-line-height: 24px;
+
+     --semibold-type-18-font-family: 'Plus Jakarta Sans-SemiBold', Helvetica;
+    --semibold-type-18-font-size: 18px;
+    --semibold-type-18-font-style: normal;
+    --semibold-type-18-font-weight: 600;
+    --semibold-type-18-letter-spacing: -0.36px;
+    --semibold-type-18-line-height: normal;
+    
+    --medium-type-16-font-family: 'Plus Jakarta Sans-Medium', Helvetica;
+    --medium-type-16-font-size: 16px;
+    --medium-type-16-font-style: normal;
+    --medium-type-16-font-weight: 500;
+    --medium-type-16-letter-spacing: -0.32px;
+    --medium-type-16-line-height: normal;
+
+    --text-lg-semibold-font-family: 'Plus Jakarta Sans-SemiBold', Helvetica;
+    --text-lg-semibold-font-size: 20px;
+    --text-lg-semibold-font-style: normal;
+    --text-lg-semibold-font-weight: 600;
+    --text-lg-semibold-letter-spacing: -0.4px;
+    --text-lg-semibold-line-height: 32px;
+
+     --text-md-normal-font-family: 'Plus Jakarta Sans-Regular', Helvetica;
+    --text-md-normal-font-size: 16px;
+    --text-md-normal-font-style: normal;
+    --text-md-normal-font-weight: 400;
+     --text-md-normal-letter-spacing: -0.32px;
+    --text-md-normal-line-height: 24px;
+     --semibold-type-24-font-family: 'Plus Jakarta Sans-SemiBold', Helvetica;
+    --semibold-type-24-font-size: 24px;
+    --semibold-type-24-font-style: normal;
+    --semibold-type-24-font-weight: 600;
+    --semibold-type-24-letter-spacing: -0.48px;
+    --semibold-type-24-line-height: 36px;
+
+      --regular-type-14-font-family: 'Plus Jakarta Sans-Regular', Helvetica;
+    --regular-type-14-font-size: 14px;
+    --regular-type-14-font-style: normal;
+    --regular-type-14-font-weight: 400;
+    --regular-type-14-letter-spacing: -0.28px;
+    --regular-type-14-line-height: 24px;
+
+    --accentued-drop-shadow: 0px 10px 25px rgba(0, 0, 0, 0.10);
+}
+
+
+
