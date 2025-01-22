@@ -114,9 +114,9 @@
 .submit-button {
   align-self: flex-start;
   background-color: #0c4f24;
-  color: #ffffff;
+  color: #fff;
   padding: 12px 32px;
-  font-size: 50px;
+  font-size: 14px;
   border: none;
   border-radius: 12px;
   cursor: pointer;

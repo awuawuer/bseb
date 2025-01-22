@@ -63,9 +63,8 @@ function Contact () {
                 // getStartedNowClassName="button-style"
                 size="small"
                 state="default"
-                text="Submit"
                 type="secondary"
-              />
+              >Submit</button>
             </div>
 
             {/* Image Section */}
