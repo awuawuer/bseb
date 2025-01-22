@@ -263,18 +263,17 @@
 }
 
 .dogecoin-is-an-open-wrapper {
-  align-items: center;
+   align-items: center;
   background-color: #EEF6EC;
-  /* background-color: var(--accentaccent-100); */
   border-color: var(--accentaccent-600);
   border-radius: 100px;
   display: flex;
   gap: 10px;
   justify-content: center;
   left: 8px;
-  padding: 12px 10px;
+  /* padding: 12px 10px; */
   position: absolute;
-  top: 0;
+  /* top: 0; */
   width: 218px;
 }
 
@@ -285,7 +284,7 @@
   font-weight: 400;
   letter-spacing: -0.28px;
   line-height: 22.4px;
-  margin-top: -1.00px;
+  /* margin-top: -1.00px; */
   position: relative;
   width: 198px;
 }
@@ -336,7 +335,7 @@
   height: 244px;
   left: 0;
   position: absolute;
-  top: 0;
+  top: -15px;
   width: 488px;
 }
 
@@ -349,12 +348,12 @@
   font-size: 50px;
   font-weight: 600;
   font-family: "Sora-SemiBold", Helvetica;
+  line-height: 1.2;
 }
 
  .span {
   color: #52A43E;
 }
-
 .start-using-dogecoin {
   height: 216px;
   left: 0;

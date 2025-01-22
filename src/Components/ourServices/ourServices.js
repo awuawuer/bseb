@@ -10,7 +10,7 @@ const OurServices = () => {
       <div className="header">
         <h2 className="title">Our Services</h2>
         <p className="subtitle">
-          Some of the services we offer to help you have a seamless examination experience.
+          Some of the services we offer to help you have a seamless <br /> examination experience.
         </p>
       </div>
       <div className="card-container">

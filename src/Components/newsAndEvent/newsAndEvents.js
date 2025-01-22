@@ -12,7 +12,7 @@ function NewsAndEvents() {
       <div className="news-header">
         <h2 className="news-title">News & Events</h2>
         <p className="news-subtitle">
-          Stay updated with the latest news and events to enhance your examination experience.
+          Stay updated with the latest news and events to enhance <br /> your examination experience.
         </p>
       </div>
 
