@@ -1,13 +1,147 @@
-/* Container for the main content */
-.contact-container {
-    flex: 1; /* Ensures it takes the remaining space between Header and Footer */
+
+/* .contact-container {
+    flex: 1; 
     padding: 20px;
     box-sizing: border-box;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     text-align: center;
     margin-top: 100px;
-  }
+  } */
   
+
+  /* Wrapper for the entire contact page */
+.contact-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+/* Container for contact content */
+.contact-container {
+  width: 100%;
+  /* max-width: 800px; */
+  flex: 1; 
+  padding: 20px;
+  margin-top: 100px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Content inside the contact page */
+.contact-content {
+  padding: 20px;
+  display: flex;
+}
+
+/* Title and tagline section */
+.section-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tagline-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tagline {
+  font-size: 16px;
+  font-weight: 500;
+  color: #555;
+}
+
+.contact-heading {
+  font-size: 32px;
+  font-weight: 600;
+  color: #0c4f24; /* Green color */
+}
+
+.contact-subtext {
+  font-size: 16px;
+  font-weight: 400;
+  color: #666;
+}
+
+/* Form wrapper */
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+/* Input group styles */
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.input-field:focus {
+  border-color: #0c4f24;
+}
+
+.input-label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.text-area {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: none;
+  height: 100px;
+}
+
+/* Submit button */
+.submit-button {
+  align-self: flex-start;
+  background-color: #0c4f24;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #0b4a21;
+}
+
+/* Image wrapper */
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.student-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+}

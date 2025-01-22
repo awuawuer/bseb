@@ -2,20 +2,20 @@ import React from 'react';
 import governorAlia from '../../img/governorAlia.png';
 import studentsImage from '../../img/students.png';
 import exchangeImage from '../../img/exchange.png';
-// import arrowIcon from '../../img/arrow-up-right (2).svg';
+import arrowIcon from '../../img/arrowicon.jpg';
 import './recentPosts.css';
 
 
 const RecentPosts = () => {
     return (
-      <div className="frame-four">
-        <div className="frame-five">
-         <div className="title"><h2 >Recent posts</h2></div> 
-         <div><p className="subtitle">
+      <div className="posts-container">
+        <div className="header">
+         <h2 className="title">Recent posts</h2>
+        <p className="subtitle">
             Some of the services we offer to help you have a seamless examination experience.
-          </p></div>
+          </p>
         </div>
-        <div className= "frame-six">
+        <div className= "frame-sixs">
         <div>
           <article className='article1' >
             <img
@@ -26,7 +26,7 @@ const RecentPosts = () => {
             />
             <div className="heading-wrapper">
               <h3 className="heading">Gov Alia Announces Free WAEC and NECO</h3>
-               {/* <img className="icon-wrap" src={arrowIcon} alt="Read more icon" /> */}
+               <img className="icon-wrap" src={arrowIcon} width={25} height={25} alt="Read more icon" />
             </div>
             <p className="subtitle-2">
               Governor Hyacinth Alia of Benue State has declared free registration of students in the Senior
@@ -36,16 +36,16 @@ const RecentPosts = () => {
             </p>
           </article>
           </div>
-          <div className= "frame-7">
+          <div className= "frame-sevens">
             <article className='article2' >
               <img
                 src={exchangeImage}
                 alt="Students in classroom"
-                width={300}
-                height={200}
+                width={200}
+                height={100}
               />
-              <div className="content-3">
-                    <h3 className="heading-2">Our statutory functions</h3>
+              <div className="left-articles">
+                    <h3 className="heading">Our statutory functions</h3>
                     <p className="subtitle-2">
                       Benue State Examination Board was established by the Benue State Edict No.5 of 1994 in
                       compliance with the Federal Ministry of Education and Youth Development's Guidelines....
@@ -57,19 +57,15 @@ const RecentPosts = () => {
                 className="freepik-the-style-is-2"
                 src={studentsImage}
                 alt="Students in exchange program"
-                width={300}
-                height={200}
+                width={200}
+                height={100}
               />
-              <div className="content-3">
-                <div className="heading-and-text">
-                  <div className="heading-and-text-2">
-                    <h3 className="heading-2">Exchange programs for students</h3>
+              <div className="right-articles">
+                    <h3 className="heading">Exchange programs for students</h3>
                     <p className="subtitle-2">
                       The Students Exchange Programme (SEP) was initiated by the 19 Northern states in 1989 with the
                       focus of fostering cultural integration and unity.
                     </p>
-                  </div>
-                </div>
               </div>
             </article>
           </div>
