@@ -21,7 +21,7 @@ const OurServices = () => {
             alt="Exam Registration icon"
           />
           <h3 className="card-title">Exam Registration</h3>
-          <div className='divider'></div>
+          <hr className='line' style={{backgroundColor:'red'}}></hr>
           <p className="card-text">
             You can register for the following exams on the portal: BECE, MOCK,
             FCCE, EBECE etc.
@@ -47,6 +47,7 @@ const OurServices = () => {
             alt="Result Checker icon"
           />
           <h3 className="card-title">Result Checker</h3>
+          <hr className='line' style={{backgroundColor:'red'}}></hr>
           <p className="card-text">
             Access your exam results quickly and easily through our online
             result checker system.

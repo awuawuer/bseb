@@ -1,18 +1,4 @@
-
-/* .contact-container {
-    flex: 1; 
-    padding: 20px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-top: 100px;
-  } */
-  
-
-  /* Wrapper for the entire contact page */
+/* Wrapper for the entire contact page */
 .contact-wrapper {
   display: flex;
   justify-content: center;
@@ -26,19 +12,20 @@
 /* Container for contact content */
 .contact-container {
   width: 100%;
-  /* max-width: 800px; */
-  flex: 1; 
+  /* max-width: 1000px; */
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
   padding: 20px;
   margin-top: 100px;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
 }
 
 /* Content inside the contact page */
 .contact-content {
-  padding: 20px;
   display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 /* Title and tagline section */
@@ -71,12 +58,20 @@
   color: #666;
 }
 
-/* Form wrapper */
-.form-wrapper {
+/* Main Content Layout */
+.main-content {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+/* Form Section */
+.form-section {
+  flex: 1;
   display: flex;
   flex-direction: column;
   gap: 15px;
-  margin-bottom: 20px;
 }
 
 /* Input group styles */
@@ -132,16 +127,16 @@
   background-color: #0b4a21;
 }
 
-/* Image wrapper */
-.image-wrapper {
+/* Image Section */
+.image-section {
+  flex: 1;
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  align-items: center;
 }
 
 .student-image {
-  width: 100%;
-  max-width: 400px;
+  max-width: 100%;
   height: auto;
   border-radius: 8px;
 }

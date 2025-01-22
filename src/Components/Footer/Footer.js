@@ -10,7 +10,7 @@ function Footer() {
       <div className="footer-inner">
         {/* Left Section */}
         <div className="footer-inner-left">
-          <img className="graduation-cap-fill" src={logo} alt="BSEB LOGO" />
+          <img className="graduation-cap-fill"  width={252.7} height={93.11} src={logo} alt="BSEB LOGO" />
           <div className="right-text">
             111 Makurdi-Gboko Rd, Makurdi 970101, Benue
           </div>

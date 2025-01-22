@@ -19,7 +19,7 @@ function Header() {
         <NavLink to="/contact" className={({ isActive }) => (isActive ? 'home-button' : 'text-wrapper')}>
           Contact
         </NavLink>
-        <NavLink to="/online-portal" className={({ isActive }) => (isActive ? 'home-button' : 'text-wrapper')}>
+        <NavLink to="#" className='text-wrapper'>
           Online Portal
         </NavLink>
       </div>
