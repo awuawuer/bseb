@@ -1,0 +1,92 @@
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 150px;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  max-width: 926px;
+}
+
+.about-title {
+  font-family: "Sora-SemiBold", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  color: #0c4f24; /* Green Title */
+  font-size: 44px;
+  letter-spacing: -1.32px;
+  line-height: 52.8px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-image-section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.about-image {
+  width: 100%;
+  max-width: 926px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 926px;
+  text-align: justify;
+}
+
+.about-intro {
+  font-family: "Plus Jakarta Sans-Medium", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  color: #333; /* Text Color */
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  line-height: 28.8px;
+}
+
+.about-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  font-family: "Plus Jakarta Sans-Medium", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  color: #333; /* Text Color */
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  line-height: 28.8px;
+}
+
+.about-list li {
+  margin-bottom: 10px;
+}
+
+.about-vision-mission {
+  font-family: "Plus Jakarta Sans-Bold", Helvetica, Arial, sans-serif;
+  /* font-weight: 700; */
+  font-size: 24px;
+  line-height: 43.2px;
+  color: #5f6368; /* Subtitle Color */
+}
+
+.about-highlight {
+  font-weight: 700;
+  color: #0c4f24; /* Green Highlights */
+}

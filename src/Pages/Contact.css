@@ -1,0 +1,13 @@
+/* Container for the main content */
+.contact-container {
+    flex: 1; /* Ensures it takes the remaining space between Header and Footer */
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+  }
+  

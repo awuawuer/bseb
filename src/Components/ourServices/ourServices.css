@@ -1,75 +1,84 @@
-
-
-.frame-x {
-  height: 454px;
-  position: relative;
+/* Main container for the section */
+.our-services-container {
   display: flex;
   flex-direction: column;
-  width: 1239px;
-  display: flex;
-  left:100px;
-  gap:28px;
-
-}
-
-
-.frame-y {
-  width: 446px;
-  height: 113px;
-  left: 497px;
-  display: flex;
   align-items: center;
   justify-content: center;
-  align-content: center;
-  position: absolute;
-  flex-direction: column;
+  padding: 50px 20px; /* Add spacing around the section */
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto; /* Center the section horizontally */
 }
 
+/* Section header */
+.header {
+  margin-bottom: 40px;
+}
 
 .title {
- font-family: "Sora-SemiBold", Helvetica;
- color:green;
- font-size: 35px;
- font-weight: 600;
- 
+  font-family: "Sora-SemiBold", Helvetica, sans-serif;
+  color: green;
+  font-size: 36px;
+  font-weight: 600;
+  margin-left: 60px;
 }
 
 .subtitle {
-  font-family: "Sora-SemiBold", Helvetica;
+  font-family: "Sora-Regular", Helvetica, sans-serif;
   font-size: 16px;
-  color: #5F6368;
-  padding: 4px;
-  margin: 4px;
-  width: 446px;
- }
+  color: #5f6368;
+  margin-top: 10px;
+}
 
-
+/* Card container */
 .card-container {
   display: flex;
-  flex-direction: row;
-  gap: 32px;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
   justify-content: center;
-  align-items: center;
-  position: relative;
-  width: 1216px;
-  left: 101px;
-  top: 217px;
+  gap: 24px; /* Add spacing between cards */
 }
 
-.card-wrapper {
-  padding: 35px 40px;
-
-}
-
+/* Individual card styling */
 .card {
-  
-  display: flex;
-  flex-direction: column;
-  gap:10px;
-  align-items: center;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  width: 280px; /* Fixed width for consistency */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  text-align: center;
 }
 
 .icon {
-  height: 54px;
-  width: 54px;
+  height: 50px;
+  width: 50px;
+  margin-bottom: 16px;
+}
+
+.card-title {
+  font-family: "Sora-SemiBold", Helvetica, sans-serif;
+  font-size: 18px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.card-text {
+  font-family: "Sora-Regular", Helvetica, sans-serif;
+  font-size: 14px;
+  color: #555;
+}
+
+.divider {
+  width: 60px;
+  border-bottom: 2px solid goldenrod;
+  margin: 20px;
+  text-align:center;
+}
+
+.line {
+  width:70px; 
+  text-align:center;
+  color: red;
+  background-color:red;
+  border-width:2px;
+  
 }

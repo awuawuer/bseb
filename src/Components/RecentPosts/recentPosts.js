@@ -1,9 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import governorAlia from '../../img/governorAlia.png';
 import studentsImage from '../../img/students.png';
 import exchangeImage from '../../img/exchange.png';
-import arrowIcon from '../../img/arrow-up-right (2).svg';
+// import arrowIcon from '../../img/arrow-up-right (2).svg';
 import './recentPosts.css';
 
 
@@ -20,7 +19,6 @@ const RecentPosts = () => {
         <div>
           <article className='article1' >
             <img
-              // className="governor-alia"
               src={governorAlia}
               alt="Governor Alia"
               width={500}
@@ -28,7 +26,7 @@ const RecentPosts = () => {
             />
             <div className="heading-wrapper">
               <h3 className="heading">Gov Alia Announces Free WAEC and NECO</h3>
-               <img className="icon-wrap" src={arrowIcon} alt="Read more icon" />
+               {/* <img className="icon-wrap" src={arrowIcon} alt="Read more icon" /> */}
             </div>
             <p className="subtitle-2">
               Governor Hyacinth Alia of Benue State has declared free registration of students in the Senior
@@ -47,15 +45,11 @@ const RecentPosts = () => {
                 height={200}
               />
               <div className="content-3">
-                {/* <div className="heading-and-text">
-                  <div className="heading-and-text-2"> */}
                     <h3 className="heading-2">Our statutory functions</h3>
                     <p className="subtitle-2">
                       Benue State Examination Board was established by the Benue State Edict No.5 of 1994 in
                       compliance with the Federal Ministry of Education and Youth Development's Guidelines....
                     </p>
-                  {/* </div>
-                </div> */}
               </div>
             </article>
             <article className="article2">

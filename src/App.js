@@ -1,27 +1,26 @@
-// App.js
 import React from 'react';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './Components/Header/Header';
-import HeroSection from './Components/HeroSection/HeroSection';
-import RecentPosts from './Components/RecentPosts/recentPosts';
-import OurServices from './Components/ourServices/ourServices';
-// import NewsAndEvents from './Components/newsAndEvent/newsAndEvents';
 import Footer from './Components/Footer/Footer';
-// import NewsAndEvents from './Components/newsAndEvent/newsAndEvents';
-//import BlogPostCard from './Components/BlogPostCard/BlogPostCard';
-
-
+import Home from './Pages/Home';
+import About from './Pages/About';
+import Contact from './Pages/Contact';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <HeroSection />
-      <RecentPosts />
-       <OurServices /> 
-      {/* <NewsAndEvents /> */}
-     <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about-us" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

@@ -1,23 +1,29 @@
-// Header.js
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './header.css';
-import { Link } from 'react-router-dom';
 import logo from './logo.png';
-
 
 function Header() {
   return (
     <nav className="navigation-menu">
       <div className="frame">
-      <img src={logo} alt="Logo" />
+        <img src={logo} alt="Logo" />
       </div>
       <div className="frame-2">
-        <a href="#" ><div className="home-button">Home</div></a>
-        <a href="#"><div className="text-wrapper">About us</div></a>
-        <a href="#" ><div className="text-wrapper">Contact</div></a>
-        <a href="#" ><div className="text-wrapper">Online portal</div></a>
+        <NavLink to="/" className={({ isActive }) => (isActive ? 'home-button' : 'text-wrapper')}>
+          Home
+        </NavLink>
+        <NavLink to="/about-us" className={({ isActive }) => (isActive ? 'home-button' : 'text-wrapper')}>
+          About Us
+        </NavLink>
+        <NavLink to="/contact" className={({ isActive }) => (isActive ? 'home-button' : 'text-wrapper')}>
+          Contact
+        </NavLink>
+        <NavLink to="/online-portal" className={({ isActive }) => (isActive ? 'home-button' : 'text-wrapper')}>
+          Online Portal
+        </NavLink>
       </div>
-      <button className="small-button">Get started</button>
+      <button className="small-button">Get Started</button>
     </nav>
   );
 }

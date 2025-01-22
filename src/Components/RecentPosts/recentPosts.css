@@ -1,16 +1,16 @@
 .frame-four {
   height: 740px;
-  position: relative;
+  position: absolute;
   width: 1440px;
   display: flex;
   justify-items: center;
-  top:100px
+  top:600px
 }
 
 .frame-five {
   width: 446px;
   height: 113px;
-  /* top: 64px; */
+  top: 64px;
   padding-left: 497px;
   padding-right: 497px;
   display: flex;

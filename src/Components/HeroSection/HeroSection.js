@@ -7,8 +7,8 @@ import Avartar2 from '../../img/M.png';
 import Avartar3 from '../../img/pablo-page-not-found 3.png';
 import Avartar4 from '../../img/F.png';
 import Avartar5 from '../../img/M (3).png';
-import Avartar6 from '../../img/teacher.png';
-import Avartar7 from '../../img/book-saved.png';
+import graduatingcap from '../../img/graduatincap-icon.png';
+import bookicon from '../../img/book-icon.png';
 
 
 function HeroSection() {
@@ -70,16 +70,15 @@ function HeroSection() {
               <div className="group-3">
                 <div className="overlap-group-wrapper">
                   <div className="vuesax-bulk-teacher-wrapper">
-                    <img className="img-2" src={Avartar6} alt="Teacher icon" />
+                    <img className="img-2" src={graduatingcap} alt="Teacher icon" />
                   </div>
                 </div>
                 <div className="div-wrapper">
                   <div className="overlap-4">
-                    {/* <img className="start-using-dogecoin" src={Avartar7} alt="Decorative Image" /> */}
                     <p><span className='span'>Benue</span>{" "}State Examination Board</p>
                     <div className="group-4">
                       <div className="vuesax-bulk-book-wrapper">
-                        <img className="img-2" src={Avartar7} alt="Book icon" />
+                        <img className="img-2" src={bookicon} alt="Book icon" />
                       </div>
                     </div>
                   </div>

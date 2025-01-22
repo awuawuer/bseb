@@ -1,210 +1,96 @@
-.BSEB-landing-page.frame {
-  background-color: #ffffff;
-  height: 862px;
-  position: relative;
-  width: 1440px;
-}
-
-.BSEB-landing-page.frame .div {
-  align-items: center;
-  display: inline-flex;
+/* Container for the entire News & Events section */
+.news-events-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
   flex-direction: column;
-  gap: 12px;
-  justify-content: center;
-  left: 497px;
-  position: absolute;
-  top: 64px;
+  align-items: center;
+  text-align: center;
 }
 
-.BSEB-landing-page.frame .start_using_dogecon {
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent;    background: linear-gradient(
-      180deg,
-      rgb(82, 164, 62) 0%,
-      rgb(31, 62, 23.44) 100%
-    );
-  background-clip: text;
-  color: transparent;
-  font-family: "sora-semibold", helvertica;
-  font-size: 44px;
+/* Header Section */
+.news-header {
+  margin-bottom: 40px;
+}
+
+.news-title {
+  font-size: 36px;
   font-weight: 600;
-  /* letter-spacing: -132px;  this was causing text to disappear*/
-  line-height: 52.8px;
-  margin-top: -1px; /* Corrected from -1.00px */
-  position: relative;
-  /* text-fill-color: transparent; */
-  white-space: nowrap;
-  width: fit-content;
+  color:green;
+  margin-bottom: 10px;
+  font-family: 'Sora', sans-serif;
 }
 
-
-.BSEB-landing-page.frame .dogecoin-is-an-open {
-  color: var(--body-text);
-  font-family: "plus jakarta san-regular", helvetica;
+.news-subtitle {
   font-size: 16px;
-  font-weight: 400;
-  letter-spacing: -0.32px;
-  line-height: 24px;
-  position: relative;
-  text-align: center;
-  width: 446px;
+  color: #636e72;
+  /* line-height: 1.6; */
+  font-family: 'Sora', sans-serif;
 }
 
-.BSEB-landing-page.frame .row {
-  align-items: flex-start;
+/* Cards Section */
+.news-card-container {
   display: flex;
-  gap: 32px;
+  flex-wrap: wrap;
   justify-content: center;
-  left: 101px;
-  position: absolute;
-  top: 217px;
-  width: 1216px;
+  gap: 20px;
 }
 
-.BSEB-landing-page.frame .blog-post-card {
-  align-items: flex-start;
+/* Individual Card */
+.news-card {
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px;
   display: flex;
-  flex: 1;
   flex-direction: column;
-  flex-grow: 1;
-  gap: 32px;
-  position: relative;
+  text-align: left;
+  transition: transform 0.3s ease;
 }
 
-.BSEB-landing-page.frame .element {
-  align-self: stretch;
-  height: 240px;
-  position: relative;
-  width: 100%;
-  object-fit: cover; /* added object-fit to properly display images in given div*/
+.news-card:hover {
+  transform: scale(1.05);
 }
 
-.BSEB-landing-page.frame .content { /* Corrected the typo */
-  align-items: flex-start;
-  align-self: stretch;
+/* Card Content */
+.news-card-content {
   display: flex;
-  flex: 0 0 auto;
   flex-direction: column;
-  gap: 24px;
-  position: relative;
-  width: 100%;
+  gap: 10px;
 }
 
-.BSEB-landing-page.frame .heading-and-text {
-  align-items: flex-start;
-  align-self: stretch;
-  display: flex;
-  flex: 0 0 auto;
-  flex-direction: column;
-  gap: 12px;
-  position: relative;
-  width: 100%;
+.news-card-date {
+  font-size: 14px;
+  color: #b2bec3;
+  font-weight: bold;
 }
 
-.BSEB-landing-page.frame .author {
-  align-self: stretch;
-  color: var(--primary-700);
-    font-family: var(--text-sm-semibold-font-family);
-    font-size: var(--text-sm-semibold-font-size);
-    font-style: var(--text-sm-semibold-font-style);
-  letter-spacing: var(--text-sm-semibold-letter-spacing);
-  line-height: var(--text-sm-semibold-line-height);
-  margin: -1px; /* Corrected from -1.00px */
-  position: relative;
+.news-card-title {
+  font-size: 20px;
+  color: #2d3436;
+  font-family: 'Sora', sans-serif;
 }
 
-.BSEB-landing-page.frame .heading-and-icon {
-  align-items: flex-start;
-  align-self: stretch;
-  display: flex;
-  flex: 0 0 auto;
-  gap: 16px;
-  position: relative;
-  width: 100%;
-}
-
-.BSEB-landing-page.frame .heading {
-  color: var(--gray-900);
-  flex: 1;
-  font-family: var(--display-xs-semibold-font-famly);
-  font-size: var(--display-xs-semibold-font-size);
-  font-weight: var(--display-xs-semibold-font-weight);
-  letter-spacing: var(--display-xs-semibold-letter-spacing);
-  /* inline-height: var(--display-xs-semibold-inline-height); /* this is not valid */
-  line-height: var(--display-xs-semibold-line-height); /* Changed to line-height*/
-  margin-top: -1px;/* Corrected from -1.00px */
-  position: relative;
-}
-
-.BSEB-landing-page.frame .icon-wrap {
-  flex: 0 0 auto;
-  position: relative;
-  height: 24px;
-  width: 24px;
-}
-
-.BSEB-landing-page.frame .supporting-text {
-  align-self: stretch;
-  color: var(--gray-500);
-  font-family: "plus jakarta sans-regular", Arial, Helvetica;
-  font-weight: 400;
+.news-card-text {
   font-size: 16px;
-  letter-spacing: -0.32px;
-  line-height: 24px;
-  position: relative;
+  color: #636e72;
+  line-height: 1.5;
 }
 
-.BSEB-landing-page.frame .badge {
-  align-items: flex-start;
-  display: inline-flex;
-  flex: 0 0 auto;
-  mix-blend-mode: multiply;
-  position: relative;
+/* Badge/Button */
+.news-card-badge {
+  margin-top: 10px;
+  /* align-self: flex-start; */
+  /* font-size: 14px; */
+  cursor: pointer;
+  width: 100px;
+  transition: color 0.3s ease;
+  background-color: #f0f2f0;
+  padding: 8px;
 }
 
-.BSEB-landing-page.frame .badge-base {
-  align-items: center;
-  background-color: var(--blue-gray50);
-  border-radius: 16px;/* Corrected the typo*/
-  display: flex;
-  height: 41px;
-  justify-content: center;
-  padding: 2px 10px;
-  position: relative;
-  width: 147px;
-}
-
-.BSEB-landing-page.frame .text {
-  color: var(--blue-gray700);
-  font-family: var(--text-sm-medium-font-family);
-  font-size: var(--text-sm-medium-font-size);
-    font-style: var(--text-sm-medium-font-style);
-  font-weight: var(--text-sm-medium-font-weight);
-  letter-spacing:var(--text-sm-medium-letter-spacing);
-  line-height: var(--text-sm-medium-line-height);
-  position: relative;
-  text-align: center;
-  white-space: nowrap;
-  width: fit-content;
-}
-
-/* Removed the IMAGE class, it doesn't correspond to any element in the JSX*/
-/* .BSEB-landing-page.frame .IMAGE {
-  align-self: stretch;
-  height: 2400px;
-  object-fit: cover;
-  position: relative;
-  width: 100%;
-} */
-
-.BSEB-landing-page.frame .text-wrapper {
-  align-self: stretch;
-  color: var(--gray-500);
-  font-family: var(--regular-type-16-font-family);
-  font-size: var(--regular-type-16-font-size);
-  font-style: var(--regular-type-16-font-style); /* Ensure this matches the variable name */
-  font-weight: var(--regular-type-16-font-weight);
-  letter-spacing: var(--regular-type-16-letter-spacing);
-  line-height: var(--regular-type-16-line-height); /* Corrected from font-weight*/
-  position: relative;
+.news-card-badge:hover {
+  color: #6c5ce7;
 }
