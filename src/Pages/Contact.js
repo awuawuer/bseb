@@ -11,10 +11,10 @@ function Contact () {
           {/* Section Title */}
           <div className="section-title">
             <div className="tagline-wrapper">
-              <div className="title-group">
+              {/* <div className="title-group">
                 <h1 className="contact-heading">Contact Us</h1>
                 <p className="contact-subtext">Send us a message</p>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -22,6 +22,10 @@ function Contact () {
           <div className="main-content">
             {/* Form Section */}
             <div className="form-section">
+              <div className="title-group">
+                <h1 className="contact-heading">Contact Us</h1>
+                <p className="contact-subtext">Send us a message</p>
+              </div>
               {/* Name Field */}
               <div className="input-group">
                 <input
@@ -56,7 +60,7 @@ function Contact () {
               {/* Submit Button */}
               <button
                 className="submit-button"
-                getStartedNowClassName="button-style"
+                // getStartedNowClassName="button-style"
                 size="small"
                 state="default"
                 text="Submit"
@@ -66,7 +70,7 @@ function Contact () {
 
             {/* Image Section */}
             <div className="image-section">
-              <img className="student-image" width={300} height={600}  alt="Student" src={studentImage} />
+              <img className="student-image"  alt="Student" src={studentImage} />
             </div>
           </div>
         </div>

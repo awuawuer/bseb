@@ -12,37 +12,37 @@ const RecentPosts = () => {
         <div className="header">
          <h2 className="title">Recent posts</h2>
         <p className="subtitle">
-            Some of the services we offer to help you have a seamless examination experience.
+            Some of the services we offer to help you have a seamless <br /> examination experience.
           </p>
         </div>
         <div className= "frame-sixs">
         <div>
           <article className='article1' >
             <img
+              className='article1-image'
               src={governorAlia}
               alt="Governor Alia"
-              width={500}
-              height={224}
             />
             <div className="heading-wrapper">
               <h3 className="heading">Gov Alia Announces Free WAEC and NECO</h3>
                <img className="icon-wrap" src={arrowIcon} width={25} height={25} alt="Read more icon" />
             </div>
+            <div className='subtitle-container'>
             <p className="subtitle-2">
               Governor Hyacinth Alia of Benue State has declared free registration of students in the Senior
               Secondary School III operating within the state. Governor Alia stated this in a press release, and
               the program is intended to cover all students in the public secondary schools located in the
               state. Also, private secondary school...
             </p>
+            </div>
           </article>
           </div>
           <div className= "frame-sevens">
-            <article className='article2' >
+            <div className='article2' >
               <img
                 src={exchangeImage}
                 alt="Students in classroom"
-                width={200}
-                height={100}
+                className='article2-image'
               />
               <div className="left-articles">
                     <h3 className="heading">Our statutory functions</h3>
@@ -51,14 +51,12 @@ const RecentPosts = () => {
                       compliance with the Federal Ministry of Education and Youth Development's Guidelines....
                     </p>
               </div>
-            </article>
-            <article className="article2">
+            </div>
+            <div className="article2">
               <img
-                className="freepik-the-style-is-2"
+                className="article2-image"
                 src={studentsImage}
                 alt="Students in exchange program"
-                width={200}
-                height={100}
               />
               <div className="right-articles">
                     <h3 className="heading">Exchange programs for students</h3>
@@ -67,7 +65,7 @@ const RecentPosts = () => {
                       focus of fostering cultural integration and unity.
                     </p>
               </div>
-            </article>
+            </div>
           </div>
         </div>
       </div>
