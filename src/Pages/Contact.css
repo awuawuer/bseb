@@ -3,10 +3,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  /* padding: 20px; */
   box-sizing: border-box;
   background-color: #f9f9f9;
   min-height: 100vh;
+  width: Fixed (1,440px)px;
+height: Fixed (955px)px;
+top: 120px;
+padding: 112px 64px 112px 64px;
+gap: 80px;
+opacity: 0px;
+
+  
 }
 
 /* Container for contact content */

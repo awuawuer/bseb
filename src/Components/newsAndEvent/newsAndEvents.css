@@ -95,7 +95,8 @@
   width: 100px;
   transition: color 0.3s ease;
   background-color: #f0f2f0;
-  padding: 8px;
+  padding: 2px 10px; 
+  border-radius: 16px;
 }
 
 .news-card-badge:hover {
