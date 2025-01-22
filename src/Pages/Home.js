@@ -8,7 +8,7 @@ function Home() {
   return (
     <>
       <HeroSection />
-      {/* <RecentPosts /> */}
+      <RecentPosts />
       <OurServices />
       <NewsAndEvents />
     </>

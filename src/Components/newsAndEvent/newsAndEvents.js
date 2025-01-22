@@ -2,6 +2,8 @@ import React from 'react';
 import './newsAndEvents.css';
 import formImage from '../../img/127817.png';
 import timetableImage from '../../img/bece.png'
+import arrowicon from '../../img/arrowicon.jpg'
+
 
 
 function NewsAndEvents() {
@@ -24,7 +26,8 @@ function NewsAndEvents() {
               />
           <div className="news-card-content">
             <div className="news-card-date">27 Dec 2024</div>
-            <h3 className="news-card-title">BECE 2024 Registration</h3>
+            <div className='news-card-header'><h3 className="news-card-title">BECE 2024 Registration</h3>
+            <img src = {arrowicon} width={20} height={20} alt="arrow-icon"/></div>
             <p className="news-card-text">
               Benue State Examination Board, Makurdi progress of activities for the
               2023/2024 Academic Session...
@@ -42,9 +45,10 @@ function NewsAndEvents() {
               />
           <div className="news-card-content">
             <div className="news-card-date">27 Dec 2024</div>
-            <h3 className="news-card-title">
+            <div className='news-card-header'><h3 className="news-card-title">
               BENUE STATE EXAMINATION BOARD MAKURDI 2023 BECE TIME-TABLE
             </h3>
+            <img src = {arrowicon} width={20} height={20} alt="arrow-icon"/></div>
             <p className="news-card-text">
               Benue State Examination Board, Makurdi programs of activities Academic session...
             </p>
@@ -61,9 +65,9 @@ function NewsAndEvents() {
               />
           <div className="news-card-content">
             <div className="news-card-date">27 Dec 2024</div>
-            <h3 className="news-card-title">
+            <div className='news-card-header'><h3 className="news-card-title">
               BENUE STATE EXAMINATION BOARD MAKURDI 2023 BECE TIME-TABLE
-            </h3>
+            </h3><img src = {arrowicon} width={20} height={20} alt="arrow-icon"/></div>
             <p className="news-card-text">
               Benue State Examination Board, Makurdi programs of activities Academic session...
             </p>
