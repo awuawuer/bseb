@@ -113,19 +113,19 @@
   align-items: center;
   max-width: 1200px;
   width: 100%;
-  padding: 20px;
+  padding: 10px;
   box-sizing: border-box;
-  flex-wrap: wrap; /* Enable wrapping for responsive design */
+  /* flex-wrap: wrap; Enable wrapping for responsive design */
 }
 
 /* Left Section */
 .footer-inner-left {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   gap: 20px;
   flex: 1;
-  text-align: center;
+  text-align: left;
 }
 
 /* Graduation Cap Image */
@@ -139,7 +139,7 @@
 .right-text {
   font-size: 16px;
   line-height: 1.5;
-  text-align: center;
+  text-align: left;
 }
 
 /* Right Section */
@@ -150,15 +150,17 @@
   gap: 20px;
   flex: 1;
   text-align: center; /* Center text for smaller screens */
+  /* padding-right: 0px; */
 }
 
 /* Footer Links */
 .footer-links {
+  width:180px;
   display: flex;
   gap: 30px;
   flex-wrap: wrap; /* Allow wrapping for smaller screens */
-  justify-content: center;
-  padding-right: 0;
+  /* justify-content: center; */
+  padding-right: 220px;
 }
 
 .footer-links a {
@@ -175,23 +177,25 @@
 /* Contact Details */
 .footer-contact {
   display: flex;
-  flex-direction: column; /* Stack contact details on smaller screens */
-  font-size: 16px;
+  
+  /* font-size: 16px; */
   line-height: 1.5;
-  text-align: center;
+  text-align: left;
   gap: 10px;
-  padding-right: 0;
+  padding-right: 120px;
+  
 }
 
 /* Bottom Section */
 .footer-bottom {
   display: flex;
-  flex-direction: column; /* Stack items for smaller screens */
-  align-items: center;
+  /* align-items: center; */
   gap: 10px;
   font-size: 14px;
   text-align: center;
   margin-top: 20px;
+  padding-left: 100px;
+  /* width: 400px; */
 }
 
 .bdic-logo {
