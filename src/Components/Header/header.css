@@ -1,53 +1,108 @@
+/* General styles for the navigation menu */
 .navigation-menu {
-  height: 100px;
-  position: absolute;
-  top: 27px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1240px;
-  text-decoration: none;
+  padding: 10px 20px;
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* Logo container */
 .frame {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   gap: 6px;
-  height: 72.45px;
-  width: 209px;
 }
 
+.frame img {
+  height: 60px;
+}
+
+/* Navigation links */
 .frame-2 {
-  display: inline-flex;
+  display: flex;
   gap: 24px;
-}
-
-.home-button {
-  display: inline-flex;
   align-items: center;
-  justify-content: center;
-  border: 1px solid rgba(82, 164, 62, 1);
-  border-radius: 100px;
-  padding: 12px 32px;
-  color: rgba(82, 164, 62, 1);
-  text-decoration: none;
+  transition: all 0.3s ease-in-out;
 }
 
+.home-button,
 .text-wrapper {
-  padding: 12px 10px;
+  padding: 12px 16px;
   color: black;
   text-decoration: none;
+  border-radius: 100px;
 }
 
 .text-wrapper:hover {
   color: rgba(82, 164, 62, 1);
 }
 
+.home-button {
+  border: 1px solid rgba(82, 164, 62, 1);
+  color: rgba(82, 164, 62, 1);
+}
+
 .small-button {
-  padding: 12px 32px;
-  background-color: var(--primary-1);
-  border-radius: 73px;
+  padding: 12px 24px;
+  background-color: rgba(82, 164, 62, 1);
   color: white;
   border: none;
+  border-radius: 73px;
   cursor: pointer;
+}
+
+/* Hamburger menu styles */
+.hamburger-menu {
+  display: none;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-open {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-open a {
+  padding: 10px 0;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.menu-open a:last-child {
+  border-bottom: none;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .frame-2 {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+}
+
+@media (max-width: 576px) {
+  .small-button {
+    padding: 10px 20px;
+  }
+
+  .frame img {
+    height: 50px;
+  }
 }

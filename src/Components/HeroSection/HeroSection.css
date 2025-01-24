@@ -424,3 +424,19 @@
   white-space: nowrap;
   width: fit-content;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+   .image {
+    display: none;
+  } 
+
+}
+
+@media (min-width: 1024px) {
+   image {
+    display: none;
+  }
+
+ 
+}
