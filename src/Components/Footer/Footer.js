@@ -12,7 +12,7 @@ function Footer() {
         <div className="footer-inner-left">
           <img className="graduation-cap-fill"  width={252.7} height={93.11} src={logo} alt="BSEB LOGO" />
           <div className="right-text">
-            111 Makurdi-Gboko Rd, Makurdi 970101, Benue
+            111 Makurdi-Gboko Rd, <br /> Makurdi 970101, Benue
           </div>
         </div>
 
@@ -28,7 +28,7 @@ function Footer() {
           </div>
           <div className="footer-bottom">
             <p>Powered by Benue Digital Infrastructure Company (BDIC)</p>
-            <img className="bdic-logo" src={bdiclogo} height={34} width={69} alt="BDIC Logo" />
+            <img className="bdic-logo" src={bdiclogo} height={33.79} width={69} alt="BDIC Logo" />
           </div>
         </div>
       </div>

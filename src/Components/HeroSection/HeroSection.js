@@ -33,7 +33,7 @@ function HeroSection() {
               <div className="element-2">
                 <div className="images">
                   <div className="avatar">
-                    <div className="overlap-group-2"><img src={Avartar1} /></div>
+                    <div className="overlap-group-2"><img className="img" src={Avartar1} /></div>
                   </div>
                   <div className="overlap-wrapper">
                     <div className="overlap-group-2"><img className="img" src={Avartar2} /></div>

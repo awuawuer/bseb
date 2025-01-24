@@ -31,6 +31,7 @@ function About ()  {
             <li>
               Basic Education Certificate Examination (BECE) for students in
               Basic 9 formerly known as JSS3.
+              
             </li>
             <li>
               MOCK – Senior School Certificate Examination (SSCE). Written as a
@@ -42,9 +43,24 @@ function About ()  {
               students in technical colleges.
             </li>
             <li>
-              External Basic Education Certificate Examination (EBECE) for
-              students of Continuing Education Centers.
+            External Basic Education Certificate Examination (EBECE) for students of Continuing Education Centers which are coordinated by the Adult and Non-formal Education Agency (ANFEA)
             </li>
+            <li>
+            Appointment of Supervisors, Examiners, Moderators, Invigilators, members of subjects panel and committees and other persons concerned with examinations and any other matter incidental there-to
+            </li>
+            <li>
+            Determining of Examination fees
+            </li>
+            <li>
+            Awarding of Certificates namely; Certificate of Primary Education, Basic Education Certificate, Federal Craft Certificate and Teachers’ Grade II Certificate
+            </li>
+             <li>
+             Monitoring and coordinating of Continuous Assessments in Schools
+            </li>
+            <li>
+            Carryout research into how other examination Bodies conduct their activities with a view of improving the conduct of examinations conducted by the Board
+             </li>
+          
           </ul>
 
           <p className="about-vision-mission">

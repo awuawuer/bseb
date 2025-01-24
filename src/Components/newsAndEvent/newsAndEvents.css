@@ -40,19 +40,19 @@
 /* Individual Card */
 .news-card {
   background: #ffffff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
   border-radius: 10px;
   width: 300px;
   padding: 20px;
   display: flex;
   flex-direction: column;
   text-align: left;
-  transition: transform 0.3s ease;
+  /* transition: transform 0.3s ease; */
 }
 
-.news-card:hover {
+/* .news-card:hover {
   transform: scale(1.05);
-}
+} */
 
 /* Card Content */
 .news-card-content {
@@ -83,7 +83,7 @@
 .news-card-text {
   font-size: 16px;
   color: #636e72;
-  line-height: 1.5;
+  line-height: -2%;
 }
 
 /* Badge/Button */

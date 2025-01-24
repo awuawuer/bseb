@@ -83,6 +83,7 @@
   /* font-weight: 700; */
   font-size: 24px;
   line-height: 43.2px;
+  margin-top: -20px;
  
 }
 
@@ -90,9 +91,11 @@
   
   font-size: 18px;
   color: #5f6368; /* Subtitle Color */
+  margin-top: -6px;
 }
 
 .about-highlight {
   font-weight: 700;
   color: #0c4f24; /* Green Highlights */
 }
+
