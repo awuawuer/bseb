@@ -1,97 +1,3 @@
-/* 
-.footer {
-  width: 100%;
-  background-color: #52A43E;
-  display: flex;
-  justify-content: center;
-  padding: 50px 0;
-  color: white;
-  bottom: 0px;
-  position: relative;
-}
-
-
-.footer-inner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  width: 100%;
-  padding: 20px;
-  box-sizing: border-box;
-}
-
-
-.footer-inner-left {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  
-}
-
-.graduation-cap-fill {
-  width: 252.7px;
-  height: 93.11px;
-  height: auto;
-}
-
-.right-text {
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-
-.footer-inner-right {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 20px;
-}
-
-
-.footer-links {
-  display: flex;
-  gap: 60px;
-  margin-left: 1px;
-  padding-right: 200px;
-}
-
-.footer-links a {
-  color: white;
-  text-decoration: none;
-  font-size: 16px;
-  transition: color 0.3s ease;
-}
-
-.footer-links a:hover {
-  color: #f1f1f1;
-}
-
-
-.footer-contact {
-  display: flex;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: right;
-  gap: 10px;
-  padding-right: 145px;
-}
-
-
-.footer-bottom {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 14px;
-  text-align: right;
-}
-
-.bdic-logo {
-  width: 69px;
-  height: 34px;
-} */
-
 
 /* Main Footer Container */
 .footer {
@@ -115,7 +21,6 @@
   width: 100%;
   padding: 10px;
   box-sizing: border-box;
-  /* flex-wrap: wrap; Enable wrapping for responsive design */
 }
 
 /* Left Section */
@@ -135,15 +40,10 @@
   height: auto;
   margin: 0px;
   padding: 0px;
-  
-  /* margin-right: 20px; */
 }
 
 /* Right Text */
 .right-text {
-  /* font-size: 16px;
-  line-height: 1.5;
-  text-align: left; */
 font-family: Plus Jakarta Sans;
 font-size: 16px;
 font-weight: 400;
@@ -152,8 +52,6 @@ letter-spacing: -0.02em;
 text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
-
-
 }
 
 /* Right Section */
@@ -207,7 +105,7 @@ text-decoration-skip-ink: none;
   gap: 10px;
   font-size: 14px;
   text-align: center;
-  margin-top: 20px;
+
   padding-left: 100px;
   /* width: 400px; */
 }
