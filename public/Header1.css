@@ -1,0 +1,99 @@
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 1240px;
+}
+
+.header .logo {
+  height: 72.45px;
+  object-fit: cover;
+  position: relative;
+  width: 209px;
+}
+
+.header .frame {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 24px;
+  position: relative;
+}
+
+.header .about-wrapper {
+  align-items: center;
+  border: 1px solid;
+  border-color: var(--accent-1);
+  border-radius: 100px;
+  display: flex;
+  gap: 1opx;
+  justify-content: center;
+  padding: 12px 10px;
+  position: relative;
+  width: 73px;
+}
+
+.header .about {
+  color: var(--accent-1);
+  font-family: "Plus Jakarta Sans-Medium", Helvetica;
+  font-size: 16px;
+  font-weight: 500px;
+  letter-spacing: -0.32px;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: 46px;
+ }
+
+.header .features-wrapper{
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  padding: 6px 10px;
+  position: relative;
+ }
+ 
+.header .text-wrapper{
+  color: var(--body-text);
+  font-family: var(--medium-type-16-font-family);
+  font-style: var(--medium-type-16-font-style);
+  font-size: var(--medium-type-16-font-size);
+  font-weight: var(--medium-type-16-font-weight);
+  letter-spacing: var(--medium-type-16-letter-spacing);
+  line-height: var(--medium-type-16-line-spacing);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+ }
+.header .group {
+    height: 36px;
+    position: relative;
+    width: 116px;
+  }
+  
+ .header .pricing-wrapper {
+    align-items: center;
+    display: inline-flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 6px 10px;
+    position: relative;
+  }
+
+ .header .small-button-instance {
+    background-color: var(--primary-1) !important;
+    flex: 0 0 auto !important;
+   }
+.header .design-component-instance-node {
+    color: var(--light) !important;
+    font-family: var(--semibold-type-14-font-family); 
+    font-size: var(--semibold-type-14-font-size);
+    font-style: var(--semibold-type-14-font-font-style);
+    font-weight: var(--semibold-type-14-font-weight);
+    letter-spacing: var(--semibold-type-14-letter-spacing);
+    line-height: var(--semibold-type-14-line-height); 
+   }
