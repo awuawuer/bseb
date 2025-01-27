@@ -2,29 +2,29 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    overflow-x: hidden; /* Keep the main container from overflowing */
+    overflow-x: hidden; 
   }
   
-  .content {
-    flex: 1; /* Allows the content to grow and push Footer down */
-  }
+  /* .content {
+    flex: 1; 
+  } */
 
   header {
-    position: relative; /* Prevent overlapping */
-    z-index: 10; /* Ensure proper stacking */
+    position: relative; 
+    z-index: 10; 
   }
   
   footer {
     /* margin-top: auto;  */
     position: relative; /* change from absolute to relative so the footer can correctly sit on the bottom*/
     z-index: 10;
-     bottom: 0px; /* Remove if not needed with relative position */
-     width: 100%; /* Set footer to take the full width*/
-    
+     bottom: 0px; 
+     width: 100%; 
+     box-sizing: border-box;
   }
   
-  main {
-    flex-grow: 1; /* Allow the main content to expand */
+  /* main {
+    flex-grow: 1; 
       padding: 20px;
     box-sizing: border-box;
-  }
+  } */
