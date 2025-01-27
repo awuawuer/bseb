@@ -24,9 +24,9 @@ function Contact() {
     e.preventDefault();
 
     // EmailJS configuration
-    const serviceID = "service_cim9sec"; 
-    const templateID = "template_m9pwvbm"; 
-    const userID = "dQm_LStDPmGclOK4G"; 
+    const serviceID = "service_hjf1k8i"; 
+    const templateID = "template_5ejmlel"; 
+    const userID = "DWRUHNbpo0P9aE_in"; 
 
     emailjs
       .send(serviceID, templateID, formData, userID)

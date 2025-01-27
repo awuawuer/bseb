@@ -95,7 +95,7 @@
   box-shadow: 0px 4px 48px #272a2d17;
   display: inline-flex;
   flex-direction: column;
-  right: 30%;
+  right: -1%;
   overflow: hidden;
   padding: 22px 20px;
   position: absolute;
@@ -340,7 +340,7 @@
 
 .overlap-group-wrapper {
   height: 83px;
-  left: 532px;
+  left: 90%;
   position: absolute;
   top: 71px;
   width: 83px;
