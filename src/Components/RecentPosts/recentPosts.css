@@ -7,10 +7,12 @@
   padding: 50px 20px;
   margin: 20px auto;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .header {
   margin-bottom: 40px;
+  box-sizing: border-box;
 }
 
 .title {
@@ -19,6 +21,7 @@
   font-size: 36px;
   font-weight: 600;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .subtitle {
@@ -26,6 +29,7 @@
   font-size: 16px;
   color: #5f6368;
   margin-top: 10px;
+  box-sizing: border-box;
 }
 
 .frame-sixs {
@@ -33,17 +37,18 @@
   flex-direction: column;
   gap: 32px;
   margin: 20px auto;
-  padding: 0 20px; /* Ensure no overflow on smaller screens */
+  padding: 0 20px;
   box-sizing: border-box;
 }
 
 .frame-sevens {
   display: flex;
-  flex-direction: column; /* Default to column layout */
+  flex-direction: column;
   gap: 32px;
   width: 592px;
   max-width: 100%;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .article1,
@@ -52,39 +57,50 @@
   flex-direction: column;
   gap: 16px;
   width: 592px;
+    max-width: 100%; /* Added this */
   height: auto;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .article1-image {
   width: 592px;
+    max-width: 100%; /* Added this */
   height: 248px;
   border-radius: 8px;
+    object-fit: cover; /* Add this to avoid squishing */
+  box-sizing: border-box;
 }
 
 .article2-image {
   width: 320px;
   height: 200px;
+    max-width: 100%; /* Added this */
   border-radius: 8px;
+   object-fit: cover; /* Add this to avoid squishing */
+  box-sizing: border-box;
 }
 
 .article2 {
   display: flex;
-  flex-direction: column; /* Default to column layout */
+  flex-direction: column;
   gap: 24px;
-  width: 100%; /* Adjust width to fit container */
+   width: 100%;
+  box-sizing: border-box;
 }
 
 .subtitle-container {
   width: 592px;
   text-align: justify;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .heading-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .heading {
@@ -92,11 +108,13 @@
   font-family: var(--semibold-type-24-font-family);
   font-size: var(--semibold-type-18-font-size);
   font-weight: var(--semibold-type-24-font-weight);
+  box-sizing: border-box;
 }
 
 .icon-wrap {
   flex: 0 0 auto;
   margin-left: 8px;
+  box-sizing: border-box;
 }
 
 .subtitle-2 {
@@ -104,73 +122,84 @@
   font-size: 16px;
   color: #5f6368;
   text-align: justify;
+    box-sizing: border-box;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
   .frame-sixs {
-    flex-direction: column; /* Stacked layout for mobile */
-    padding: 0 10px; /* Reduce side padding for smaller screens */
+    flex-direction: column;
+      padding: 0 10px;
   }
 
   .frame-sevens {
     width: 100%;
-    padding: 0 10px; /* Ensure proper spacing for mobile */
+    padding: 0 10px;
+      box-sizing: border-box;
   }
 
   .article1,
   .article2 {
     gap: 16px;
     width: 100%;
+      box-sizing: border-box;
   }
 
   .article1-image {
     width: 100%;
     height: auto;
+      box-sizing: border-box;
   }
 
   .article2 {
-    flex-direction: column; /* Stacked layout on mobile */
+    flex-direction: column;
   }
 
   .article2-image {
     width: 100%;
     height: auto;
+     box-sizing: border-box;
   }
 }
 
 @media (min-width: 1024px) {
   .frame-sixs {
-    flex-direction: row; /* Two-column layout on larger screens */
+    flex-direction: row;
     gap: 32px;
-    margin: 0 auto;
-    padding: 0; /* Remove extra padding on larger screens */
+      margin: 0 auto;
+    padding: 0;
+      box-sizing: border-box;
   }
 
   .frame-sevens {
-    flex-direction: column; /* Maintain column alignment for larger screens */
-    gap: 32px;
-    width: 592px; /* Restore initial width */
+    flex-direction: column;
+      gap: 32px;
+    width: 592px;
+       box-sizing: border-box;
   }
 
   .article2 {
-    flex-direction: row; /* Side-by-side layout on larger screens */
-    gap: 24px;
-    width: 100%; /* Adjust width */
+    flex-direction: row;
+      gap: 24px;
+    width: 100%;
+      box-sizing: border-box;
   }
 
   .article2-image {
-    width: 320px; /* Restore initial width */
-    height: 200px; /* Restore initial height */
+      width: 320px;
+      height: 200px;
+      box-sizing: border-box;
   }
 
   .article1,
   .article2 {
-    width: 592px; /* Restore initial width */
+    width: 592px;
+     box-sizing: border-box;
   }
 
   .article1-image {
-    width: 592px; /* Restore initial width */
-    height: 248px; /* Restore initial height */
+      width: 592px;
+      height: 248px;
+      box-sizing: border-box;
   }
 }

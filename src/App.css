@@ -1,9 +1,8 @@
 .App {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Full viewport height */
-    overflow-x: hidden;
-    
+    min-height: 100vh;
+    overflow-x: hidden; /* Keep the main container from overflowing */
   }
   
   .content {
@@ -16,16 +15,16 @@
   }
   
   footer {
-    /* margin-top: auto; 
-    position: relative; */
+    /* margin-top: auto;  */
+    position: relative; /* change from absolute to relative so the footer can correctly sit on the bottom*/
     z-index: 10;
-    bottom: 0px;
-    position: absolute;
+     bottom: 0px; /* Remove if not needed with relative position */
+     width: 100%; /* Set footer to take the full width*/
+    
   }
   
   main {
     flex-grow: 1; /* Allow the main content to expand */
-    padding: 20px; /* Add spacing for better readability */
+      padding: 20px;
     box-sizing: border-box;
   }
-  

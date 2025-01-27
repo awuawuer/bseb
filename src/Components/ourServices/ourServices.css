@@ -4,15 +4,18 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 50px 20px; /* Add spacing around the section */
+  padding: 50px 20px;
   text-align: center;
   max-width: 1200px;
-  margin: 0 auto; /* Center the section horizontally */
+  margin: 0 auto;
+  width: 100vw; /* Changed to 100vw to take full viewport width */
+  box-sizing: border-box;
 }
 
 /* Section header */
 .header {
   margin-bottom: 40px;
+  box-sizing: border-box;
 }
 
 .title {
@@ -21,6 +24,7 @@
   font-size: 36px;
   font-weight: 600;
   margin-left: 60px;
+   box-sizing: border-box;
 }
 
 .subtitle {
@@ -28,14 +32,16 @@
   font-size: 16px;
   color: #5f6368;
   margin-top: 10px;
+   box-sizing: border-box;
 }
 
 /* Card container */
 .card-container {
   display: flex;
-  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 24px; /* Add spacing between cards */
+  gap: 24px;
+    box-sizing: border-box;
 }
 
 /* Individual card styling */
@@ -43,15 +49,17 @@
   background-color: white;
   border-radius: 10px;
   padding: 20px;
-  width: 280px; /* Fixed width for consistency */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  width: 280px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
+   box-sizing: border-box;
 }
 
 .icon {
   height: 50px;
   width: 50px;
   margin-bottom: 16px;
+   box-sizing: border-box;
 }
 
 .card-title {
@@ -59,25 +67,29 @@
   font-size: 18px;
   margin: 10px 0;
   color: #333;
+   box-sizing: border-box;
 }
+
 .card-text {
   font-family: "Sora-Regular", Helvetica, sans-serif;
   font-size: 14px;
   color: #555;
+   box-sizing: border-box;
 }
 
 .divider {
-  width: 60px;
-  border-bottom: 2px solid goldenrod;
-  margin: 20px;
-  text-align:center;
+width: 60px;
+border-bottom: 2px solid goldenrod;
+margin: 20px;
+text-align:center;
+box-sizing: border-box;
 }
 
 .line {
-  width:70px; 
-  text-align:center;
-  color: red;
-  background-color:red;
-  border-width:2px;
-  
+width:70px; 
+text-align:center;
+color: red;
+background-color:red;
+border-width:2px;
+ box-sizing: border-box;
 }

@@ -2,63 +2,77 @@
 
 .hero-section {
   height: 690px;
-  left: 0;
   position: relative;
-  top: 100px;
-  width: 1440px;
+  top: 20px; 
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  box-sizing: border-box; /* added this */
 }
 
 .overlap {
   height: 690px;
-  left: 97px;
   position: relative;
-  width: 1243px;
+  width: 90%;
+  max-width: 1243px;
+  margin: 0 auto;
+    box-sizing: border-box; /* added this */
 }
 
 .overlap-group {
   height: 690px;
   position: absolute;
   top: 0;
-  width: 1243px;
+  width: 100%;
+  max-width: 1243px;
+  box-sizing: border-box; /* added this */
 }
 
 .image {
   height: 690px;
-  left: 559px;
+  right: 0;
   overflow: hidden;
   position: absolute;
   top: 0;
-  width: 684px;
+  width: 50%;
+  max-width: 684px;
+  box-sizing: border-box; /* added this */
 }
 
 .overlap-2 {
   height: 621px;
   position: relative;
-  width: 688px;
+    width: 100%;
+  max-width: 688px;
+  box-sizing: border-box; /* added this */
 }
 
 .base {
   background-color: var(--accent-1);
   border-radius: 60px;
   height: 534px;
-  left: 91px;
+  left: 10%;
   opacity: 0.3;
   position: absolute;
   top: 42px;
   transform: rotate(-4.37deg);
-  width: 534px;
+  width: 80%;
+  max-width: 534px;
+    box-sizing: border-box; /* added this */
 }
 
 .image-container {
   background-color: #52A43E;
   border-radius: 60px;
   height: 534px;
-  left: 91px;
+  left: 10%;
   overflow: hidden;
   position: absolute;
   top: 42px;
   transform: rotate(10.00deg);
-  width: 534px;
+  width: 80%;
+  max-width: 534px;
+  box-sizing: border-box; /* added this */
 }
 
 .freepik-the-style-is {
@@ -69,6 +83,7 @@
   top: 5px;
   transform: rotate(-10.00deg);
   width: 527px;
+    box-sizing: border-box; /* added this */
 }
 
 .element {
@@ -80,11 +95,12 @@
   box-shadow: 0px 4px 48px #272a2d17;
   display: inline-flex;
   flex-direction: column;
-  left: 527px;
+  right: 30%;
   overflow: hidden;
   padding: 22px 20px;
   position: absolute;
   top: 213px;
+    box-sizing: border-box; /* added this */
 }
 
 .text-wrapper-2 {
@@ -124,11 +140,12 @@
   display: inline-flex;
   flex-direction: column;
   gap: 8px;
-  left: 267px;
+  right: 45%;
   overflow: hidden;
   padding: 22px 20px;
   position: absolute;
   top: 494px;
+    box-sizing: border-box; /* added this */
 }
 
 .images {
@@ -138,6 +155,7 @@
   justify-content: space-between;
   position: relative;
   width: 212px;
+    box-sizing: border-box; /* added this */
 }
 
 .avatar {
@@ -145,6 +163,7 @@
   position: relative;
   width: 56px;
   border-radius: 56px;
+  box-sizing: border-box; /* added this */
 }
 
 .overlap-group-2 {
@@ -156,6 +175,7 @@
   position: relative;
   top: 2px;
   width: 52px;
+    box-sizing: border-box; /* added this */
 }
 
 .img {
@@ -165,6 +185,7 @@
   top: 0;
   width: 48px;
   border-radius: 100%;
+    box-sizing: border-box; /* added this */
 }
 
 .overlap-wrapper {
@@ -172,6 +193,7 @@
   margin-left: -17px;
   position: relative;
   width: 56px;
+    box-sizing: border-box; /* added this */
 }
 
 .overlap-3 {
@@ -181,6 +203,7 @@
   border-radius: 26px;
   height: 52px;
   width: 52px;
+    box-sizing: border-box; /* added this */
 }
 
 .rectangle {
@@ -191,6 +214,7 @@
   position: absolute;
   top: 0;
   width: 48px;
+    box-sizing: border-box; /* added this */
 }
 
 .text-wrapper-4 {
@@ -206,6 +230,7 @@
   text-align: center;
   top: 12px;
   white-space: nowrap;
+  box-sizing: border-box; /* added this */
 }
 
 .element-3 {
@@ -221,6 +246,7 @@
   padding: 12px 20px;
   position: absolute;
   top: 89px;
+  box-sizing: border-box; /* added this */
 }
 
 .avatar-2 {
@@ -229,6 +255,7 @@
   position: relative;
   width: 54px;
   border-radius: 100%;
+    box-sizing: border-box; /* added this */
 }
 
 .content {
@@ -238,6 +265,7 @@
   flex-direction: column;
   gap: 4px;
   position: relative;
+    box-sizing: border-box; /* added this */
 }
 
 .text-wrapper-5 {
@@ -253,6 +281,7 @@
   position: relative;
   white-space: nowrap;
   width: 113px;
+  box-sizing: border-box; /* added this */
 }
 
 .group-2 {
@@ -261,6 +290,7 @@
   position: absolute;
   top: 91px;
   width: 615px;
+  box-sizing: border-box; /* added this */
 }
 
 .dogecoin-is-an-open-wrapper {
@@ -274,6 +304,7 @@
   left: 8px;
   position: absolute;
   width: 218px;
+  box-sizing: border-box; /* added this */
 }
 
 .dogecoin-is-an-open {
@@ -286,6 +317,7 @@
   margin-top: 0px;
   position: relative;
   width: 198px;
+    box-sizing: border-box; /* added this */
 }
 
 .frame-3 {
@@ -296,12 +328,14 @@
   position: absolute;
   top: 37px;
   width: 615px;
+  box-sizing: border-box; /* added this */
 }
 
 .group-3 {
   height: 244px;
   position: relative;
   width: 615px;
+  box-sizing: border-box; /* added this */
 }
 
 .overlap-group-wrapper {
@@ -310,6 +344,7 @@
   position: absolute;
   top: 71px;
   width: 83px;
+    box-sizing: border-box; /* added this */
 }
 
 .vuesax-bulk-teacher-wrapper {
@@ -320,6 +355,7 @@
   top: 4px;
   width: 73px;
   border-radius: 100px;
+    box-sizing: border-box; /* added this */
 }
 
 .icon-instance-node {
@@ -328,6 +364,7 @@
   position: absolute !important;
   top: 21px !important;
   width: 33px !important;
+    box-sizing: border-box; /* added this */
 }
 
 .div-wrapper {
@@ -336,6 +373,7 @@
   position: absolute;
   top: -15px;
   width: 488px;
+  box-sizing: border-box; /* added this */
 }
 
 .overlap-4 {
@@ -348,6 +386,7 @@
   font-weight: 600;
   font-family: "Sora-SemiBold", Helvetica;
   line-height: 1.2;
+    box-sizing: border-box; /* added this */
 }
 
  .span {
@@ -359,6 +398,7 @@
   position: absolute;
   top: 0;
   width: 403px;
+  box-sizing: border-box; /* added this */
 }
 
 .group-4 {
@@ -367,6 +407,7 @@
   position: absolute;
   top: 148px;
   width: 83px;
+    box-sizing: border-box; /* added this */
 }
 
 .vuesax-bulk-book-wrapper {
@@ -376,6 +417,7 @@
   position: relative;
   top: -40px;
   width: 83px;
+    box-sizing: border-box; /* added this */
 }
 
 .p {
@@ -387,6 +429,7 @@
   line-height: 18px;
   position: relative;
   width: 412px;
+    box-sizing: border-box; /* added this */
 }
 
 .large-button {
@@ -404,6 +447,7 @@
     position: absolute;
     top: 470px;
     width: 337px;
+  box-sizing: border-box; /* added this */
   }
 
 .get-started-now-2 {
@@ -420,6 +464,7 @@
   text-align: center;
   white-space: nowrap;
   width: fit-content;
+  box-sizing: border-box; /* added this */
 }
 
 
@@ -441,6 +486,7 @@
   top: 100px; */
   width: 100vw;
   overflow: hidden;
+  box-sizing: border-box; /* added this */
 
 }
 

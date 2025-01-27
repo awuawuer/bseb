@@ -1,163 +1,170 @@
-
 /* Main Footer Container */
 .footer {
-  width: 100%;
-  background-color: #52A43E;
-  display: flex;
-  justify-content: center;
-  padding: 50px 0;
-  color: white;
-  bottom: 0px;
-  position: relative;
-  flex-wrap: wrap; /* Allow wrapping for smaller screens */
-}
-
-/* Inner Wrapper */
-.footer-inner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  width: 100%;
-  padding: 10px;
+    width: 100%;
+    background-color: #52A43E;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    color: white;
+    bottom: 0px;
+    position: relative; /* Changed to relative */
+    flex-wrap: wrap;
   box-sizing: border-box;
-}
-
-/* Left Section */
-.footer-inner-left {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  gap: 20px;
-  flex: 1;
-  text-align: left;
-}
-
-/* Graduation Cap Image */
-.graduation-cap-fill {
-  width: 100%;
-  max-width: 252.7px;
-  height: auto;
-  margin: 0px;
-  padding: 0px;
-}
-
-/* Right Text */
-.right-text {
-font-family: Plus Jakarta Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: -0.02em;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-}
-
-/* Right Section */
-.footer-inner-right {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 20px;
-  flex: 1;
-  text-align: center; /* Center text for smaller screens */
-  /* padding-right: 0px; */
-}
-
-/* Footer Links */
-.footer-links {
-  width:180px;
-  display: flex;
-  gap: 30px;
-  flex-wrap: wrap; /* Allow wrapping for smaller screens */
-  /* justify-content: center; */
-  padding-right: 220px;
-}
-
-.footer-links a {
-  color: white;
-  text-decoration: none;
-  font-size: 16px;
-  transition: color 0.3s ease;
-}
-
-.footer-links a:hover {
-  color: #f1f1f1;
-}
-
-/* Contact Details */
-.footer-contact {
-  display: flex;
+  }
   
-  /* font-size: 16px; */
-  line-height: 1.5;
-  text-align: left;
-  gap: 10px;
-  padding-right: 120px;
-  
-}
-
-/* Bottom Section */
-.footer-bottom {
-  display: flex;
-  /* align-items: center; */
-  gap: 10px;
-  font-size: 14px;
-  text-align: center;
-
-  padding-left: 100px;
-  /* width: 400px; */
-}
-
-.bdic-logo {
-  width: 69px;
-  height: 33.79px;
-
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
+  /* Inner Wrapper */
   .footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 90%; /* Changed from 100% to 90% to give some space */
+    padding: 10px;
+      margin: 0 auto; /* added this to center it*/
+    box-sizing: border-box;
+  }
+  
+  /* Left Section */
+  .footer-inner-left {
+    display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start; /* Changed from left to flex-start */
     gap: 20px;
+    flex: 1;
+    text-align: left;
+      box-sizing: border-box;
   }
-
-  .footer-inner-left,
+  
+  /* Graduation Cap Image */
+  .graduation-cap-fill {
+    width: 100%;
+    max-width: 252.7px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+      box-sizing: border-box;
+  }
+  
+  /* Right Text */
+  .right-text {
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+      box-sizing: border-box;
+  }
+  
+  /* Right Section */
   .footer-inner-right {
-    align-items: center;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+    flex: 1;
+    text-align: right; /* changed from center to right*/
+    box-sizing: border-box;
   }
-
+  
+  /* Footer Links */
   .footer-links {
-    gap: 15px;
-    padding-right: 0;
+      width: 180px;
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      justify-content: flex-end; /* Added to allign the links to right*/
+        padding-right: 0px; /* Removed the padding, to make the links allign with the section */
+    box-sizing: border-box;
   }
-
-  .footer-contact {
-    text-align: center;
-  }
-}
-
-@media (max-width: 480px) {
-  .footer {
-    padding: 30px 10px;
-  }
-
-  .footer-inner {
-    gap: 15px;
-  }
-
+  
   .footer-links a {
-    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+      box-sizing: border-box;
   }
-
+  
+  .footer-links a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Contact Details */
   .footer-contact {
-    font-size: 14px;
+    display: flex;
+    line-height: 1.5;
+    text-align: left;
+      gap: 10px;
+      padding-right: 0; /* Removed the padding, to make the contact allign with the section */
+        box-sizing: border-box;
   }
-
+  
+  /* Bottom Section */
   .footer-bottom {
-    font-size: 12px;
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+    text-align: center;
+    padding-left: 0px;
+    box-sizing: border-box;
   }
-}
+  
+  .bdic-logo {
+    width: 69px;
+    height: 33.79px;
+     box-sizing: border-box;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-inner {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+        box-sizing: border-box;
+    }
+  
+    .footer-inner-left,
+    .footer-inner-right {
+      align-items: center;
+      text-align: center;
+        box-sizing: border-box;
+    }
+  
+    .footer-links {
+        gap: 15px;
+      padding-right: 0;
+      justify-content: center; /* Center for smaller screens */
+        box-sizing: border-box;
+    }
+  
+    .footer-contact {
+      text-align: center;
+        box-sizing: border-box;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer {
+      padding: 30px 10px;
+    }
+  
+    .footer-inner {
+      gap: 15px;
+    }
+  
+    .footer-links a {
+      font-size: 14px;
+    }
+  
+    .footer-contact {
+      font-size: 14px;
+    }
+  
+    .footer-bottom {
+      font-size: 12px;
+    }
+  }

@@ -1,12 +1,18 @@
+/* header.css */
+
 .navigation-menu {
   height: 100px;
-  position: absolute;
+  position: relative;
   top: 27px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1240px;
+  width: 90%;
+  max-width: 1240px;
   text-decoration: none;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
 }
 
 .frame {
@@ -14,7 +20,7 @@
   align-items: center;
   gap: 6px;
   height: 72.45px;
-  width: 209px;
+  width: auto; /* Changed to auto so it doesnt take all the space*/
 }
 
 .frame-2 {
@@ -31,12 +37,14 @@
   padding: 12px 32px;
   color: rgba(82, 164, 62, 1);
   text-decoration: none;
+  width:auto;
 }
 
 .text-wrapper {
   padding: 12px 10px;
   color: black;
   text-decoration: none;
+  width: auto;
 }
 
 .text-wrapper:hover {
@@ -50,4 +58,52 @@
   color: white;
   border: none;
   cursor: pointer;
+  width: auto;
+}
+
+.menuIcon {
+  color: white;
+  font-size: 30px;
+  background-color: green;
+  display: none;
+  cursor: pointer; /* Add a cursor to indicate it's clickable */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .frame-2 {
+    display: none; /* Hide links on smaller screens */
+    flex-direction: column; /* Stack items vertically */
+    background-color: white;
+    position: absolute;
+    top: 100px; /* Position below the navbar */
+    right: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    z-index: 1000; /* Ensure menu is above other elements */
+    gap: 15px;
+    width: fit-content;
+  }
+
+  .frame-2.menu-open {
+    display: flex; /* Show the menu when open */
+  }
+  
+  .menuIcon {
+    display: block; /* Show menu icon on smaller screens */
+  }
+
+  .small-button{
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .small-button {
+    padding: 10px 20px;
+  }
+    .frame img {
+    height: 50px;
+  }
 }

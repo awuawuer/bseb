@@ -9,8 +9,8 @@
   min-height: 100vh;
   width: Fixed (1,440px)px;
 height: Fixed (955px)px;
-top: 120px;
-padding: 112px 64px 112px 64px;
+/* top: 30px; */
+padding: 3px 64px 112px 64px;
 gap: 80px;
 opacity: 0px;
 
@@ -86,6 +86,7 @@ opacity: 0px;
 .input-group {
   display: flex;
   flex-direction: column;
+  gap: 20px;
 }
 
 .input-field {
@@ -126,11 +127,12 @@ opacity: 0px;
   padding: 12px 32px;
   font-size: 14px;
   border: none;
-  border-radius: 12px;
+  border-radius: 24px;
   cursor: pointer;
   transition: background-color 0.3s;
   width: 112px;
   height: 45px;
+  margin: 10px;
 }
 
 .submit-button:hover {
