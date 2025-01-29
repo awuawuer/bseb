@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import emailjs from '@emailjs/browser';
-import studentImage from "../img/student.png";
+import studentImage from "../img/student-medium.png";
+import googleMap from "../img/map.png";
 import "./Contact.css";
 
 function Contact() {
@@ -57,9 +58,9 @@ function Contact() {
               <form onSubmit={handleSubmit}>
                 {/* Name Field */}
                 <div className="input-group">
+                <label className="input-label">Name</label>
                   <input
                     className="input-field"
-                    placeholder="Name"
                     type="text"
                     name="name"
                     value={formData.name}
@@ -70,9 +71,9 @@ function Contact() {
 
                 {/* Email Field */}
                 <div className="input-group">
+                <label className="input-label">Email</label>
                   <input
                     className="input-field"
-                    placeholder="Email"
                     type="email"
                     name="email"
                     value={formData.email}
@@ -87,6 +88,7 @@ function Contact() {
                   <textarea
                     className="text-area"
                     name="message"
+                    placeholder="Type your message"
                     value={formData.message}
                     onChange={handleChange}
                     required
@@ -109,8 +111,15 @@ function Contact() {
                 className="student-image"
                 alt="Student"
                 src={studentImage}
+             />
+             {/* <div className="google-map">  */}
+             <img
+                className="google-map"
+                alt="Map"
+                src={googleMap}
               />
-            </div>
+            {/* </div> */}
+           </div>
           </div>
         </div>
       </div>

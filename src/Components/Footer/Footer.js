@@ -24,7 +24,7 @@ function Footer() {
           </div>
           <div className="footer-contact">
             <p>info@bseb.com.ng</p>
-            <p>+234 806 502 5147</p>
+            <p>+234 7031265983</p>
           </div>
           <div className="footer-bottom">
             <p>Powered by Benue Digital Infrastructure Company (BDIC)</p>

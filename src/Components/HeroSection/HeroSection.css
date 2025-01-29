@@ -140,7 +140,7 @@
   display: inline-flex;
   flex-direction: column;
   gap: 8px;
-  right: 45%;
+  right: 20%;
   overflow: hidden;
   padding: 22px 20px;
   position: absolute;
@@ -485,7 +485,8 @@
   position: relative;
   top: 100px; */
   width: 100vw;
-  overflow: hidden;
+  /* overflow: hidden; */
+  overflow-x: hidden;
   box-sizing: border-box; /* added this */
 
 }
