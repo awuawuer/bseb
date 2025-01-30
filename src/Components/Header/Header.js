@@ -31,6 +31,11 @@ function Header() {
         <NavLink to="/contact" className={({ isActive }) => (isActive ? 'home-button' : 'text-wrapper')} onClick={closeMenu}>
           Contact
         </NavLink>
+
+        <NavLink to="#" className="text-wrapper" onClick={closeMenu}>
+          Services
+        </NavLink>
+
         <NavLink to="#" className="text-wrapper" onClick={closeMenu}>
           Online Portal
         </NavLink>
