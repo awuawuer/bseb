@@ -9,16 +9,17 @@
   min-height: 100vh;
   /* width: Fixed (1,440px)px;
   height: Fixed (955px)px; */
-/* top: 30px; */
+  /* top: 30px; */
   padding: 3px 64px 112px 64px;
   gap: 80px;
   opacity: 0px;
-
-  
 }
 
 /* Container for contact content */
 .contact-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
   width: 100%;
   /* max-width: 1000px; */
   /* background-color: #ffffff; */
@@ -58,8 +59,8 @@
 .contact-heading {
   font-size: 32px;
   font-weight: 600;
-  color: #0c4f24; 
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  color: #0c4f24;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .contact-subtext {
@@ -131,7 +132,7 @@
   padding: 12px 32px;
   font-size: 14px;
   border: none;
- border-radius: 8px; 
+  border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s;
   width: 104%;
@@ -158,59 +159,50 @@
   height: 283.28px;
 }
 
-.google-map {
-  
+/* .Map {
   width: 496px;
   height: 283.28px;
   position: relative;
-}
+} */
 
 @media (max-width: 768px) {
   .student-image {
     display: none;
-  
-   }
-  
+  }
 }
 
 @media (max-width: 480px) {
- .student-image {
-  display: none;
+  .student-image {
+    display: none;
+  }
 
- }
+  .contact-wrapper {
+    width: 100%;
+    height: auto;
+    padding: 2px;
+    gap: 1px;
+  }
 
- .contact-wrapper { 
-  
-  width: 100%;
-  height: auto;
-  padding: 2px;
-  gap: 1px;
-  
-}
+  .contact-container {
+    margin: 5px;
+    padding-right: 20px;
+    width: 100%;
+  }
 
-.contact-container {
-  margin: 5px;
-  padding-right: 20px;
-  width: 100%;
-}
+  .form-section {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+  }
 
-.form-section {
-  
-  display: flex;
-  flex-direction: column;
-  gap: 56px;
-}
+  .main-content {
+    display: flex;
+    flex-direction: column;
+  }
 
-.main-content {
-  display: flex;
-  flex-direction: column;
+  .form-section {
+    padding-right: 20px;
 
-}
-
-.form-section {
-  padding-right: 20px;
-  
-  width: 100%;
-}
-
+    width: 100%;
+  }
 }

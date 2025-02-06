@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
 import studentImage from "../img/student-medium.png";
-import googleMap from "../img/map.png";
+import Maps from "../Components/Map";
 import "./Contact.css";
 
 function Contact() {
@@ -25,9 +25,9 @@ function Contact() {
     e.preventDefault();
 
     // EmailJS configuration
-    const serviceID = "service_hjf1k8i"; 
-    const templateID = "template_5ejmlel"; 
-    const userID = "DWRUHNbpo0P9aE_in"; 
+    const serviceID = "service_hjf1k8i";
+    const templateID = "template_5ejmlel";
+    const userID = "DWRUHNbpo0P9aE_in";
 
     emailjs
       .send(serviceID, templateID, formData, userID)
@@ -58,7 +58,7 @@ function Contact() {
               <form onSubmit={handleSubmit}>
                 {/* Name Field */}
                 <div className="input-group">
-                <label className="input-label">Name</label>
+                  <label className="input-label">Name</label>
                   <input
                     className="input-field"
                     type="text"
@@ -71,7 +71,7 @@ function Contact() {
 
                 {/* Email Field */}
                 <div className="input-group">
-                <label className="input-label">Email</label>
+                  <label className="input-label">Email</label>
                   <input
                     className="input-field"
                     type="email"
@@ -107,19 +107,9 @@ function Contact() {
 
             {/* Image Section */}
             <div className="image-section">
-              <img
-                className="student-image"
-                alt="Student"
-                src={studentImage}
-             />
-             {/* <div className="google-map">  */}
-             <img
-                className="google-map"
-                alt="Map"
-                src={googleMap}
-              />
-            {/* </div> */}
-           </div>
+              <img className="student-image" alt="Student" src={studentImage} />
+              <Maps />
+            </div>
           </div>
         </div>
       </div>

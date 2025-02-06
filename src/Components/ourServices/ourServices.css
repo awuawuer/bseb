@@ -1,6 +1,7 @@
 /* Main container for the section */
 .our-services-container {
   display: flex;
+  position: relative;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -10,6 +11,7 @@
   margin: 0 auto;
   width: 100vw; /* Changed to 100vw to take full viewport width */
   box-sizing: border-box;
+  top: -90px;
 }
 
 /* Section header */
@@ -24,7 +26,7 @@
   font-size: 36px;
   font-weight: 600;
   margin-left: 60px;
-   box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .subtitle {
@@ -32,7 +34,7 @@
   font-size: 16px;
   color: #5f6368;
   margin-top: 10px;
-   box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Card container */
@@ -41,7 +43,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 24px;
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Individual card styling */
@@ -52,14 +54,14 @@
   width: 280px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
-   box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .icon {
   height: 50px;
   width: 50px;
   margin-bottom: 16px;
-   box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .card-title {
@@ -67,29 +69,29 @@
   font-size: 18px;
   margin: 10px 0;
   color: #333;
-   box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .card-text {
   font-family: "Sora-Regular", Helvetica, sans-serif;
   font-size: 14px;
   color: #555;
-   box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .divider {
-width: 60px;
-border-bottom: 2px solid goldenrod;
-margin: 20px;
-text-align:center;
-box-sizing: border-box;
+  width: 60px;
+  border-bottom: 2px solid goldenrod;
+  margin: 20px;
+  text-align: center;
+  box-sizing: border-box;
 }
 
 .line {
-width:70px; 
-text-align:center;
-color: red;
-background-color:red;
-border-width:2px;
- box-sizing: border-box;
+  width: 70px;
+  text-align: center;
+  color: red;
+  background-color: red;
+  border-width: 2px;
+  box-sizing: border-box;
 }

@@ -1,4 +1,4 @@
-.about-wrapper {
+/* .about-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,59 +8,56 @@
   padding: 20px;
   box-sizing: border-box;
   margin-top: 50px;
+  box-sizing: border-box;
 }
 
 .about-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 24px;
   width: 100%;
-  max-width: 926px;
+  box-sizing: border-box;
+}
+
+.about-content {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  text-align: justify;
+  padding: 10px 1px;
+  box-sizing: border-box;
 }
 
 .about-title {
   font-family: "Sora-SemiBold", Helvetica, Arial, sans-serif;
   font-weight: 600;
-  color: #0c4f24; /* Green Title */
+  color: #0c4f24;
   font-size: 44px;
   letter-spacing: -1.32px;
   line-height: 52.8px;
-  text-align: center;
+  text-align: left;
   margin-bottom: 20px;
+  box-sizing: border-box;
 }
 
-.about-image-section {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-.about-image {
-  width: 100%;
-  max-width: 926px;
-  height: auto;
-  object-fit: cover;
-  border-radius: 8px;
-  margin-bottom: 24px;
-}
-
-.about-content {
+.about-left-section {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  width: 100%;
-  max-width: 926px;
-  text-align: justify;
+  box-sizing: border-box;
+}
+
+.about-right-section {
+  margin-bottom: auto;
+  font-family: Plus Jakarta Sans;
+  box-sizing: border-box;
 }
 
 .about-intro {
   font-family: "Plus Jakarta Sans-Medium", Helvetica, Arial, sans-serif;
   font-weight: 500;
-  color: #333; /* Text Color */
+  color: #333;
   font-size: 16px;
-  letter-spacing: -0.32px;
-  line-height: 28.8px;
+  box-sizing: border-box;
 }
 
 .about-list {
@@ -68,34 +65,239 @@
   padding-left: 20px;
   font-family: "Plus Jakarta Sans-Medium", Helvetica, Arial, sans-serif;
   font-weight: 500;
-  color: #333; /* Text Color */
+  color: #333;
   font-size: 16px;
   letter-spacing: -0.32px;
   line-height: 28.8px;
+  box-sizing: border-box;
 }
 
 .about-list li {
   margin-bottom: 10px;
+  box-sizing: border-box;
 }
 
-.about-vision-mission {
-  font-family: "Plus Jakarta Sans-Bold", Helvetica, Arial, sans-serif;
-  /* font-weight: 700; */
-  font-size: 24px;
-  line-height: 43.2px;
-  margin-top: -20px;
- 
-}
-
-.about-vision-mission > p {
-  
-  font-size: 18px;
-  color: #5f6368; /* Subtitle Color */
-  margin-top: -6px;
+.about-vision {
+  font-family: "Plus Jakarta Sans";
+  background-color: #52a43e;
+  color: white;
+  margin-top: 10px;
+  padding-left: 37px;
+  padding-right: 51px;
+  box-sizing: border-box;
 }
 
 .about-highlight {
   font-weight: 700;
-  color: #0c4f24; /* Green Highlights */
+  color: #0c4f24;
+  box-sizing: border-box;
 }
 
+@media (max-width: 768px) {
+}
+
+@media (max-width: 480px) {
+  .about-image {
+    width: 320px;
+    height: 164px;
+  }
+
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    text-align: justify;
+    padding: 10px 1px;
+    box-sizing: border-box;
+  }
+
+  .about-vision {
+    align-items: flex-start;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .mision-vision {
+    display: flex;
+    flex-direction: column;
+  }
+} */
+
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1440px; /* Consider removing or adjusting max-width */
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.about-content {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  text-align: justify;
+  padding: 10px 1px;
+  box-sizing: border-box;
+}
+
+.about-title {
+  font-family: "Sora-SemiBold", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  color: #0c4f24;
+  font-size: 44px;
+  letter-spacing: -1.32px;
+  line-height: 1.2; /* Use a unitless line-height for responsiveness */
+  text-align: left;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.about-left-section {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.about-right-section {
+  margin-bottom: auto;
+  font-family: Plus Jakarta Sans;
+  box-sizing: border-box;
+}
+
+.about-intro {
+  font-family: "Plus Jakarta Sans-Medium", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  color: #333;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.about-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  font-family: "Plus Jakarta Sans-Medium", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  color: #333;
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  line-height: 1.8; /* Use a unitless line-height for responsiveness */
+  box-sizing: border-box;
+}
+
+.about-list li {
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.about-vision {
+  font-family: "Plus Jakarta Sans";
+  background-color: #52a43e;
+  color: white;
+  margin-top: 10px;
+  padding-left: 37px;
+  padding-right: 51px;
+  box-sizing: border-box;
+}
+
+.about-highlight {
+  font-weight: 700;
+  color: #0c4f24;
+  box-sizing: border-box;
+}
+
+/* Media Queries for Responsiveness */
+
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+    gap: 10px;
+    /* Added the following to handle potential overflow issues */
+    overflow-wrap: break-word; /* Long words wrap to the next line */
+    word-break: break-word; /* Even breaks words if necessary to prevent overflow */
+    width: 100%; /* Ensure it takes up the full width */
+    box-sizing: border-box; /* Includes padding and border in width calculation */
+  }
+
+  .about-title {
+    font-size: 32px;
+    line-height: 1.1;
+    text-align: center;
+    /* Added to help prevent overflow */
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  .about-intro,
+  .about-list {
+    font-size: 14px;
+    line-height: 1.6;
+    /* Added to help prevent overflow */
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  .about-vision {
+    padding-left: 20px;
+    padding-right: 20px;
+    /* Prevent overflow from padding pushing content too wide */
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .about-wrapper {
+    padding: 10px;
+    margin-top: 30px;
+    box-sizing: border-box; /* Most Important - see explanation below */
+    width: 100%; /* Added to ensure it's not wider than its container */
+  }
+
+  .about-container {
+    gap: 16px;
+    box-sizing: border-box; /* important - see explanation below */
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-title {
+    font-size: 28px;
+  }
+
+  .about-list {
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 1441px) {
+  .about-wrapper {
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box; /* Important if the parent also has percentage padding. */
+    width: 100%; /*Important if the parent also has percentage padding. */
+  }
+}
+
+@media (max-width: 480px) {
+  .about-image {
+    width: 380px;
+    height: 164px;
+  }
+}

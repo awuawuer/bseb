@@ -1,0 +1,92 @@
+/* Container for the management team section */
+.management-team-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  position: relative;
+  top: -90px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Header Section */
+.head-lines .p {
+  margin-top: -10px;
+}
+
+.management-title {
+  font-size: 36px;
+  font-weight: 600;
+  color: green;
+  margin-bottom: 10px;
+  font-family: "Sora", sans-serif;
+}
+
+.management-subtitle {
+  font-size: 16px;
+  color: #636e72;
+  font-family: "Sora", sans-serif;
+}
+
+/* Cards Section */
+.management-team-container-2 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: -20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Individual Card */
+.management-card {
+  background: #ffffff;
+
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.management-team-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.management-team-title {
+  font-size: 18px;
+  color: #2d3436;
+  font-family: "Sora", sans-serif;
+  text-transform: uppercase;
+}
+
+.management-team-text {
+  font-size: 16px;
+  color: #636e72;
+  line-height: -2%;
+}
+
+.icons {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-content: center;
+}
+
+.name-job-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: auto;
+  margin-top: -10px;
+  padding-top: 10px;
+}
+
+@media (min-width: 1024px) {
+}

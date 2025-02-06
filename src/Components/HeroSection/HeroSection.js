@@ -1,15 +1,14 @@
 // HeroSection.js
-import React from 'react';
-import './HeroSection.css';
-import Image4 from './image4.png';
-import Avartar1 from '../../img/F (2).png';
-import Avartar2 from '../../img/M.png';
-import Avartar3 from '../../img/pablo-page-not-found 3.png';
-import Avartar4 from '../../img/F.png';
-import Avartar5 from '../../img/M (3).png';
-import graduatingcap from '../../img/graduatincap-icon.png';
-import bookicon from '../../img/book-icon.png';
-
+import React from "react";
+import "./HeroSection.css";
+import Image4 from "./image4.png";
+import Avartar1 from "../../img/image-6.png";
+import Avartar2 from "../../img/image-5.png";
+import Avartar3 from "../../img/image-6.png";
+import Avartar4 from "../../img/image-6.png";
+import Avartar5 from "../../img/terver-john.png";
+import graduatingcap from "../../img/graduatincap-icon.png";
+import bookicon from "../../img/book-icon.png";
 
 function HeroSection() {
   return (
@@ -33,16 +32,24 @@ function HeroSection() {
               <div className="element-2">
                 <div className="images">
                   <div className="avatar">
-                    <div className="overlap-group-2"><img className="img" src={Avartar1} /></div>
+                    <div className="overlap-group-2">
+                      <img className="img" src={Avartar1} />
+                    </div>
                   </div>
                   <div className="overlap-wrapper">
-                    <div className="overlap-group-2"><img className="img" src={Avartar2} /></div>
+                    <div className="overlap-group-2">
+                      <img className="img" src={Avartar2} />
+                    </div>
                   </div>
                   <div className="overlap-wrapper">
-                    <div className="overlap-group-2"><img className="img" src={Avartar3} /></div>
+                    <div className="overlap-group-2">
+                      <img className="img" src={Avartar3} />
+                    </div>
                   </div>
                   <div className="overlap-wrapper">
-                    <div className="overlap-group-2"><img className="img" src={Avartar4}/></div>
+                    <div className="overlap-group-2">
+                      <img className="img" src={Avartar4} />
+                    </div>
                   </div>
                   <div className="overlap-wrapper">
                     <div className="overlap-group-2">
@@ -57,25 +64,36 @@ function HeroSection() {
                 <img className="avatar-2" src={Avartar5} />
                 <div className="content">
                   <div className="text-wrapper-5">Terver John</div>
-                  <p className="text-wrapper-3">I love how seamless the portal is.</p>
+                  <p className="text-wrapper-3">
+                    I love how seamless the portal is.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
           <div className="group-2">
             <div className="dogecoin-is-an-open-wrapper">
-              <p className="dogecoin-is-an-open">The best way to manage exams</p>
+              <p className="dogecoin-is-an-open">
+                The best way to manage exams
+              </p>
             </div>
             <div className="frame-3">
               <div className="group-3">
                 <div className="overlap-group-wrapper">
                   <div className="vuesax-bulk-teacher-wrapper">
-                    <img className="img-2" src={graduatingcap} alt="Teacher icon" />
+                    <img
+                      className="img-2"
+                      src={graduatingcap}
+                      alt="Teacher icon"
+                    />
                   </div>
                 </div>
                 <div className="div-wrapper">
                   <div className="overlap-4">
-                    <p><span className='span'>Benue</span>{" "}State Examination Board</p>
+                    <p>
+                      <span className="span">Benue</span> State Examination
+                      Board
+                    </p>
                     <div className="group-4">
                       <div className="vuesax-bulk-book-wrapper">
                         <img className="img-2" src={bookicon} alt="Book icon" />
@@ -84,11 +102,16 @@ function HeroSection() {
                   </div>
                 </div>
               </div>
-              <p className="p">The smart way to manage Exams with Accuracy, Speed, and Transparency Guaranteed</p>
+              <p className="p">
+                The smart way to manage Exams with Accuracy, Speed, and
+                Transparency Guaranteed
+              </p>
             </div>
           </div>
         </div>
-        <button className="large-button"><span className="get-started-now-2">Login</span></button>
+        <button className="large-button">
+          <span className="get-started-now-2">Login</span>
+        </button>
       </div>
     </section>
   );

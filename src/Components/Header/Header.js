@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
-import './header.css';
-import logo from './logo.png';
+import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
+import "./header.css";
+import logo from "./logo.png";
 import { BiMenu } from "react-icons/bi";
 
 function Header() {
@@ -18,28 +18,51 @@ function Header() {
   return (
     <nav className="navigation-menu">
       <div className="frame">
-      <NavLink to="/">  <img src={logo} alt="Logo" /> </NavLink>
+        <NavLink to="/">
+          {" "}
+          <img src={logo} alt="Logo" />{" "}
+        </NavLink>
       </div>
       <BiMenu className="menuIcon" onClick={toggleMenu} />
-      <div className={`frame-2 ${menuOpen ? 'menu-open' : ''}`}>
-        <NavLink to="/" className={({ isActive }) => (isActive ? 'home-button' : 'text-wrapper')} onClick={closeMenu}>
+      <div className={`frame-2 ${menuOpen ? "menu-open" : ""}`}>
+        <NavLink
+          to="/"
+          className={({ isActive }) =>
+            isActive ? "home-button" : "text-wrapper"
+          }
+          onClick={closeMenu}
+        >
           Home
         </NavLink>
-        <NavLink to="/about-us" className={({ isActive }) => (isActive ? 'home-button' : 'text-wrapper')} onClick={closeMenu}>
+        <NavLink
+          to="/about-us"
+          className={({ isActive }) =>
+            isActive ? "home-button" : "text-wrapper"
+          }
+          onClick={closeMenu}
+        >
           About Us
         </NavLink>
-        <NavLink to="/contact" className={({ isActive }) => (isActive ? 'home-button' : 'text-wrapper')} onClick={closeMenu}>
+        <NavLink
+          to="/contact"
+          className={({ isActive }) =>
+            isActive ? "home-button" : "text-wrapper"
+          }
+          onClick={closeMenu}
+        >
           Contact
         </NavLink>
 
-        <NavLink to="#" className="text-wrapper" onClick={closeMenu}>
+        <a href="#Services" className="text-wrapper" onClick={closeMenu}>
           Services
-        </NavLink>
+        </a>
 
         <NavLink to="#" className="text-wrapper" onClick={closeMenu}>
           Online Portal
         </NavLink>
-      <button className="small-button" onClick={closeMenu}>Get Started</button>
+        <button className="small-button" onClick={closeMenu}>
+          Get Started
+        </button>
       </div>
     </nav>
   );
